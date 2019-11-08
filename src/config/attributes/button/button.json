@@ -1,0 +1,93 @@
+{
+  "ButtonGroup/size": {
+    "options": ["large", "small", "default"],
+    "description": "按钮组合大小，可选值为large、small、default或者不设置",
+    "optionType": "string",
+    "defaultValue": "default"
+  },
+  "ButtonGroup/shape": {
+    "options": ["circle", "round"],
+    "description": "按钮组合形状，可选值为circle或者不设置",
+    "optionType": "string",
+    "defaultValue": "circle"
+  },
+  "ButtonGroup/vertical": {
+    "description": "按钮组合形状，可选值为circle或者不设置",
+    "optionType": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/type": {
+    "options": ["default", "primary", "dashed", "text", "info", "success", "warning", "error"],
+    "description": "按钮类型，可选值为 default、primary、dashed、text、info、success、warning、error或者不设置",
+    "optionTyep": "String",
+    "defaultValue": "default"
+  },
+  "Button/ghost": {
+    "description": "幽灵属性，使按钮背景透明",
+    "optionType": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/size": {
+    "options": ["large", "small", "default"],
+    "description": "按钮大小，可选值为large、small、default或者不设置",
+    "optionTyep": "String",
+    "defaultValue": "default"
+  },
+  "Button/shape": {
+    "options": ["circle", "round"],
+    "description": "按钮形状，可选值为circle或者不设置",
+    "optionTyep": "String",
+    "defaultValue": "circle"
+  },
+  "Button/long": {
+    "description": "开启后，按钮的长度为 100%",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/html-type": {
+    "options": ["button", "submit", "dashed", "reset"],
+    "description": "设置button原生的type，可选值为button、submit、reset",
+    "optionTyep": "String",
+    "defaultValue": "button"
+  },
+  "Button/disabled": {
+    "description": "设置按钮为禁用状态",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/loading": {
+    "description": "设置按钮为加载中状态",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/icon": {
+    "description": "设置按钮的图标类型",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Button/custom-icon": {
+    "description": "设置按钮的自定义图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Button/to": {
+    "description": "跳转的链接，支持 vue-router 对象",
+    "optionTyep": "String | Object",
+    "defaultValue": "-"
+  },
+  "Button/replace": {
+    "description": "路由跳转时，开启 replace 将不会向 history 添加新记录",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Button/target": {
+    "description": "相当于 a 链接的 target 属性",
+    "optionTyep": "String",
+    "defaultValue": "_self"
+  },
+  "Button/append": {
+    "description": "同 vue-router append",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
+}

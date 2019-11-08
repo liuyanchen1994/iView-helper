@@ -1,0 +1,311 @@
+{
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "Button": {
+    "defaults": ["type"],
+    "attributes": ["disabled", "ghost", "htmlType", "icon", "loading", "shape", "size", "type", "block"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "Icon":{
+    "attributes": ["type","size", "color","custom"],
+    "description": "图标"
+  },
+  "Row": {
+    "attributes": ["gutter", "type","align", "justify","class-name"],
+    "subTags":["Col"],
+    "description": "栅格栏中一行。"
+  },
+  "Col": {
+    "defaults": [":span"],
+    "attributes": ["span", "order","offset", "push","pull", "class-name","xs", "sm","md", "lg","xl", "xxl"],
+    "description": "栅格栏中一列。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  },
+  "ButtonGroup": {
+    "attributes": ["size", "shape","vertical"],
+    "subTags":["Button"],
+    "description": "基础组件，触发业务逻辑时使用。"
+  }
+}
