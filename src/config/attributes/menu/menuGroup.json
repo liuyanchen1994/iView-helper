@@ -1,0 +1,7 @@
+{
+  "MenuGroup/title":{
+    "description": "分组标题",
+    "optionTyep": "String",
+    "defaultValue":"-"
+  }
+}

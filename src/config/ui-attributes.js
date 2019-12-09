@@ -14,6 +14,10 @@ import * as split from './attributes/split/split.json'
 import * as divider from './attributes/divider/divider.json'
 import * as cellGroup from './attributes/cell/cellGroup.json'
 import * as cell from './attributes/cell/cell.json'
+import * as menu from './attributes/menu/menu.json'
+import * as menuGroup from './attributes/menu/menuGroup.json'
+import * as menuItem from './attributes/menu/menuItem.json'
+import * as subMenu from './attributes/menu/subMenu.json'
 
 export default {
   ...button,
@@ -31,5 +35,9 @@ export default {
   ...split,
   ...divider,
   ...cellGroup,
-  ...cell
+  ...cell,
+  ...menu, 
+  ...menuGroup,
+  ...menuItem,
+  ...subMenu
 }

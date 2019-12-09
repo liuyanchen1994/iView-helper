@@ -86,5 +86,24 @@
     "attributes":["name","title","label","extra","disabled","selected",
     "to","replace","target","append"],
     "description": "单元格"
+  },
+  "Menu":{
+    "subTags":["MenuItem","Submenu","MenuGroup"],
+    "attributes":["mode","theme","active-name","open-names","accordion","width",
+    "@on-select","@on-open-change","@updateOpened","@updateActiveName"],
+    "description": "导航菜单"
+  },
+  "MenuGroup":{
+    "subTags":["MenuItem","Submenu"],
+    "attributes":["title"],
+    "description": "导航菜单组"
+  },
+  "MenuItem":{
+    "attributes":["title"],
+    "description": "导航菜单项"
+  },
+  "Submenu":{
+    "attributes":["name"],
+    "description": "导航菜单项"
   }
 }

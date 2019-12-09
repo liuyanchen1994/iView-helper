@@ -1,0 +1,27 @@
+{
+  "MenuItem/name":{
+    "description": "菜单项的唯一标识，必填",
+    "optionTyep": "String | Number",
+    "defaultValue":"-"
+  },
+  "MenuItem/to":{
+    "description": "跳转的链接，支持 vue-router 对象",
+    "optionTyep": "String|Object",
+    "defaultValue": "-"
+  },
+  "MenuItem/replace":{
+    "description": "路由跳转时，开启 replace 将不会向 history 添加新记录",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "MenuItem/target":{
+    "description": "相当于 a 链接的 target 属性",
+    "optionTyep": "String",
+    "defaultValue": "_self"
+  },
+  "MenuItem/append":{
+    "description": "同 vue-router append",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
+}

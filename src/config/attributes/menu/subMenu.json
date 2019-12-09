@@ -1,0 +1,11 @@
+{
+  "Submenu/name":{
+    "description": "子菜单的唯一标识，必填",
+    "optionTyep": "String | Number",
+    "defaultValue": "-"
+  },
+  "Submenu/title":{
+    "description": "子菜单标题",
+    "optionTyep": "Slot"
+  }
+}
