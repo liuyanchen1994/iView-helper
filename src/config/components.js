@@ -1,4 +1,20 @@
 export default {
+  buttongroup: {
+    category: 'Components',
+    subtitle: '按钮组',
+    type: 'General',
+    title: 'ButtonGroup',
+    tag: 'ButtonGroup',
+  },
+  button: {
+    category: 'Components',
+    subtitle: '按钮',
+    type: 'General',
+    title: 'Button',
+    tag: 'Button',
+  },
+
+  
   avatar: {
     category: 'Components',
     subtitle: '头像',

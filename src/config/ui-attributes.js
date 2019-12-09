@@ -1,19 +1,13 @@
 import * as button from './attributes/button/button.json'
+import * as buttongroup from './attributes/button/buttongroup.json'
+import * as row from './attributes/grid/row.json'
+import * as col from './attributes/grid/col.json'
+import * as icon from './attributes/icon/icon.json'
 
 export default {
   ...button,
-  ...{
-   "a-locale-provider/locale": {
-    "description": "language package setting, you can find the packages in this path: antd/lib/locale-provider/",
-		"optionType": "object",
-		"defaultValue": "-"
-   } 
-  },
-  ...{
-    "a-config-provider/getPopupContainer": {
-      "description": "to set the container of the popup element. The default is to create a div element in body.",
-      "optionType": "Function(triggerNode)",
-      "defaultValue": "() => document.body"
-    }
-  }
+  ...buttongroup,
+  ...row,
+  ...col,
+  ...icon
 }
