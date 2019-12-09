@@ -12,6 +12,8 @@ import * as collapse from './attributes/collapse/collapse.json'
 import * as panel from './attributes/collapse/panel.json'
 import * as split from './attributes/split/split.json'
 import * as divider from './attributes/divider/divider.json'
+import * as cellGroup from './attributes/cell/cellGroup.json'
+import * as cell from './attributes/cell/cell.json'
 
 export default {
   ...button,
@@ -27,5 +29,7 @@ export default {
   ...collapse,
   ...panel,
   ...split,
-  ...divider
+  ...divider,
+  ...cellGroup,
+  ...cell
 }

@@ -76,5 +76,15 @@
   "Divider":{
     "attributes":["type","orientation","dashed","size"],
     "description": "分割线"
+  },
+  "CellGroup":{
+    "attributes":["@on-click"],
+    "subTags":["Cell"],
+    "description": "单元格组"
+  },
+  "Cell":{
+    "attributes":["name","title","label","extra","disabled","selected",
+    "to","replace","target","append"],
+    "description": "单元格"
   }
 }

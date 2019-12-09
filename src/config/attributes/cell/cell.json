@@ -1,0 +1,56 @@
+{
+  "Cell/name": {
+    "description": "是否虚线",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Cell/title": {
+    "description": "左侧标题",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Cell/label": {
+    "description": "标题下方的描述信息",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Cell/extra":{
+    "description": "右侧额外内容",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Cell/disabled":{
+    "description": "禁用该项",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Cell/selected":{
+    "description": "标记该项为选中状态",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Cell/to":{
+    "description": "跳转的链接，支持 vue-router 对象",
+    "optionTyep": "String|Object",
+    "defaultValue": "-"
+  },
+  "Cell/replace":{
+    "description": "路由跳转时，开启 replace 将不会向 history 添加新记录",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Cell/target":{
+    "description": "相当于 a 链接的 target 属性",
+    "optionTyep": "String",
+    "defaultValue": "_self"
+  },
+  "Cell/append":{
+    "description": "同 vue-router append",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Cell/arrow":{
+    "description": "有链接时，可自定义右侧箭头",
+    "optionTyep": "Slot"
+  }
+}

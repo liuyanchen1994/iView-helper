@@ -1,0 +1,6 @@
+{
+  "CellGroup/@on-click": {
+    "description": "点击单元格时触发",
+    "optionTyep": "Function"
+  }
+}
