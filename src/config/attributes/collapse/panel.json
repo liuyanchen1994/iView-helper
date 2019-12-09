@@ -1,0 +1,16 @@
+{
+  "Panel/name":{
+    "description": "当前面板的 name，与 Collapse的value对应，不填为索引值",
+    "optionTyep": "String",
+    "defaultValue": "String"
+  },
+  "Panel/hide-arrow":{
+    "description": "隐藏箭头",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Panel/content":{
+    "description": "描述内容",
+    "optionTyep": "Slot"
+  }
+}

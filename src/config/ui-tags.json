@@ -58,5 +58,14 @@
   "Card":{
     "attributes":["bordered","dis-hover","shadow","padding","title","icon","to","replace","target","append","extra"],
     "description": "基础容器，用来显示文字、列表、图文等内容，也可以配合其它组件一起使用。"
+  },
+  "Collapse":{
+    "attributes":["value","accordion","simple","@on-change"],
+    "subTags":["Panel"],
+    "description": "将内容区域折叠/展开。"
+  },
+  "Panel":{
+    "attributes":["name","hide-arrow","content"],
+    "description": "Panel"
   }
 }

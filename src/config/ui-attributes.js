@@ -8,6 +8,8 @@ import * as list from './attributes/list/list.json'
 import * as listItem from './attributes/list/listItem.json'
 import * as listItemMeta from './attributes/list/listItemMeta.json'
 import * as card from './attributes/card/card.json'
+import * as collapse from './attributes/collapse/collapse.json'
+import * as panel from './attributes/collapse/panel.json'
 
 export default {
   ...button,
@@ -19,5 +21,7 @@ export default {
   ...list,
   ...listItem,
   ...listItemMeta,
-  ...card
+  ...card,
+  ...collapse,
+  ...panel
 }

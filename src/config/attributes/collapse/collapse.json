@@ -1,0 +1,21 @@
+{
+  "Collapse/value":{
+    "description": "当前激活的面板的 name，可以使用 v-model 双向绑定",
+    "optionTyep": "Array | String",
+    "defaultValue": "-"
+  },
+  "Collapse/accordion":{
+    "description": "是否开启手风琴模式，开启后每次至多展开一个面板",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Collapse/simple":{
+    "description": "是否开启简洁模式",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Collapse/@on-change":{
+    "description": "切换面板时触发，返回当前已展开的面板的 key，格式为数组",
+    "optionTyep": "[]"
+  }
+}
