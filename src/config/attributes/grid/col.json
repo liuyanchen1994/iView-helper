@@ -1,0 +1,62 @@
+{
+  "Col/span": {
+    "description": "栅格的占位格数，可选值为0~24的整数，为 0 时，相当于display:none",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Col/order": {
+    "description": "栅格的顺序，在flex布局模式下有效",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Col/offset": {
+    "description": "栅格左侧的间隔格数，间隔内不可以有栅格",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Col/push": {
+    "description": "栅格向右移动格数",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Col/pull": {
+    "description": "栅格向左移动格数",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Col/class-name": {
+    "description": "自定义的class名称",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Col/xs": {
+    "description": "<576px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  },
+  "Col/sm": {
+    "description": "≥576px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  },
+  "Col/md": {
+    "description": "≥768px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  },
+  "Col/lg": {
+    "description": "≥992px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  },
+  "Col/xl": {
+    "description": "≥1200px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  },
+  "Col/xxl": {
+    "description": "≥1600px 响应式栅格，可为栅格数或一个包含其他属性的对象",
+    "optionTyep": "Number | Object",
+    "defaultValue": "-"
+  }
+}
