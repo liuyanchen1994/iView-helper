@@ -1,0 +1,17 @@
+{
+  "ListItemMeta/avatar":{
+    "description": "列表元素的图标",
+    "optionTyep": "Boolean|Slot",
+    "defaultValue": "-"
+  },
+  "ListItemMeta/title":{
+    "description": "列表元素的标题",
+    "optionTyep": "Boolean|Slot",
+    "defaultValue": "-"
+  },
+  "ListItemMeta/description":{
+    "description": "列表元素的描述内容",
+    "optionTyep": "Boolean|Slot",
+    "defaultValue": "-"
+  }
+}

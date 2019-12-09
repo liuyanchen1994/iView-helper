@@ -22,5 +22,37 @@
     "defaults": [":span"],
     "attributes": ["span", "order","offset", "push","pull", "class-name","xs", "sm","md", "lg","xl", "xxl"],
     "description": "栅格栏中一列。"
+  },
+  "Layout": {
+    "subTags":["Header","Sider","Content","Footer","Layout"],
+    "description": "协助进行页面级整体布局。"
+  },
+  "Header": {
+    "description": "布局容器。"
+  },
+  "Sider": {
+    "attributes": ["breakpoint", "value","width", "collapsible","collapsed-width", "hide-trigger",
+      "default-collapsed", "reverse-arrow","@on-collapse", "trigger","@toggleCollapse"],
+    "description": "布局容器。"
+  },
+  "Content": {
+    "description": "布局容器。"
+  },
+  "Footer": {
+    "description": "布局容器。"
+  },
+  "List": {
+    "attributes":["border","item-layout","header","footer","loading","size","split"],
+    "subTags":["ListItem"],
+    "description": "最基础的列表展示，可承载文字、列表、图片、段落，常用于后台数据展示页面。"
+  },
+  "ListItem": {
+    "attributes":["action","extra"],
+    "subTags":["ListItemMeta"],
+    "description": "List Item"
+  },
+  "ListItemMeta": {
+    "attributes":["avatar","title","description"],
+    "description": "List Item Meta"
   }
 }

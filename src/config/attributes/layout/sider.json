@@ -1,0 +1,53 @@
+{
+  "Sider/breakpoint":{
+    "options": ["xs","sm","md","lg","xl","xxl"],
+    "description": "触发响应式布局的断点，可选值为xs,sm,md,lg,xl或xxl，若不设此属性则不会触发响应式布局。",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Sider/value":{
+    "description": "侧边栏是否收起，可使用 v-model 双向绑定数据。",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Sider/width":{
+    "description": "宽度",
+    "optionTyep": "Number",
+    "defaultValue": "200"
+  },
+  "Sider/collapsible":{
+    "description": "是否可收起，设为false后，默认触发器会隐藏，且响应式布局不会触发",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Sider/collapsed-width":{
+    "description": "收缩宽度，设置为 0 会出现特殊 trigger",
+    "optionTyep": "Number",
+    "defaultValue": "64"
+  },
+  "Sider/hide-trigger":{
+    "description": "隐藏默认触发器",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Sider/default-collapsed":{
+    "description": "是否默认收起，设置了collapsible后设置此属性侧边栏仍会收起。",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Sider/reverse-arrow":{
+    "description": "改变侧边栏触发器箭头方向，和改变侧边栏收起方向，当Sider在右边时可以使用。",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Sider/@on-collapse":{
+    "description": "展开-收起时的回调",
+    "optionTyep": "Function"
+  },
+  "Sider/trigger":{
+    "description": "自定义触发器"
+  },
+  "Sider/toggleCollapse":{
+    "description": "改变Sider展开-收起状态。"
+  }
+}

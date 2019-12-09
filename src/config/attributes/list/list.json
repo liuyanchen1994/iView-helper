@@ -1,0 +1,39 @@
+{
+  "List/border":{
+    "description": "是否显示边框",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "List/item-layout":{
+    "options":["horizontal","vertical"],
+    "description": "设置 ListItem 布局, 可选值为 horizontal（横排）或 vertical（竖直）",
+    "optionTyep": "String",
+    "defaultValue": "horizontal"
+  },
+  "List/header":{
+    "description": "列表头部",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "List/footer":{
+    "description": "列表底部",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "List/loading":{
+    "description": "列表是否正在加载",
+    "optionTyep": "Boolean|Slot",
+    "defaultValue": "false"
+  },
+  "List/size":{
+    "options":["small","large","default"],
+    "description": "列表尺寸，可选值为 small、large、default",
+    "optionTyep": "String",
+    "defaultValue": "default"
+  },
+  "List/split":{
+    "description": "是否展示分割线",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  }
+}

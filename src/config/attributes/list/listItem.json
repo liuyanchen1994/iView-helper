@@ -1,0 +1,12 @@
+{
+  "ListItem/action":{
+    "description": "列表操作组，根据 item-layout 的不同, 位置在卡片底部或者最右侧",
+    "optionTyep": "Slot",
+    "defaultValue": "-"
+  },
+  "ListItem/extra":{
+    "description": "额外内容, 通常用在 item-layout 为 vertical 的情况下, 展示右侧内容; horizontal 展示在列表元素最右侧",
+    "optionTyep": "Slot",
+    "defaultValue": "-"
+  }
+}
