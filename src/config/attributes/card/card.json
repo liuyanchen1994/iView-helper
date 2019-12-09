@@ -1,0 +1,57 @@
+{
+  "Card/bordered":{
+    "description": "是否显示边框，建议在灰色背景下使用",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "Card/dis-hover":{
+    "description": "禁用鼠标悬停显示阴影",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Card/shadow":{
+    "description": "卡片阴影，建议在灰色背景下使用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Card/padding":{
+    "description": "卡片内部间距，单位 px",
+    "optionTyep": "Number",
+    "defaultValue": "16"
+  },
+  "Card/title":{
+    "description": "标题，自定义卡片标题，如果是简单文字，可以使用<p>标签包裹",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Card/icon":{
+    "description": "标题前的图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Card/to":{
+    "description": "跳转的链接，支持 vue-router 对象",
+    "optionTyep": "String|Object",
+    "defaultValue": "-"
+  },
+  "Card/replace":{
+    "description": "路由跳转时，开启 replace 将不会向 history 添加新记录",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Card/target":{
+    "description": "相当于 a 链接的 target 属性",
+    "optionTyep": "String",
+    "defaultValue": "_self"
+  },
+  "Card/append":{
+    "description": "同 vue-router append",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Card/extra":{
+    "description": "额外显示的内容，默认位置在右上角",
+    "optionTyep": "Slot",
+    "defaultValue": "-"
+  }
+}

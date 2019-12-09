@@ -7,6 +7,7 @@ import * as sider from './attributes/layout/sider.json'
 import * as list from './attributes/list/list.json'
 import * as listItem from './attributes/list/listItem.json'
 import * as listItemMeta from './attributes/list/listItemMeta.json'
+import * as card from './attributes/card/card.json'
 
 export default {
   ...button,
@@ -17,5 +18,6 @@ export default {
   ...sider,
   ...list,
   ...listItem,
-  ...listItemMeta
+  ...listItemMeta,
+  ...card
 }

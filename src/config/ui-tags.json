@@ -54,5 +54,9 @@
   "ListItemMeta": {
     "attributes":["avatar","title","description"],
     "description": "List Item Meta"
+  },
+  "Card":{
+    "attributes":["bordered","dis-hover","shadow","padding","title","icon","to","replace","target","append","extra"],
+    "description": "基础容器，用来显示文字、列表、图文等内容，也可以配合其它组件一起使用。"
   }
 }
