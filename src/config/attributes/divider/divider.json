@@ -1,0 +1,25 @@
+{
+  "Divider/type": {
+    "options":["horizontal","vertical"],
+    "description": "水平还是垂直类型，可选值为 horizontal 或 vertical",
+    "optionTyep": "String",
+    "defaultValue": "horizontal"
+  },
+  "Divider/orientation": {
+    "options":["left","right","center"],
+    "description": "分割线标题的位置，可选值为 left、right 或 center",
+    "optionTyep": "String",
+    "defaultValue": "center"
+  },
+  "Divider/dashed": {
+    "description": "是否虚线",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Divider/size": {
+    "options":["small","default"],
+    "description": "尺寸",
+    "optionTyep": "String",
+    "defaultValue": "default"
+  }
+}

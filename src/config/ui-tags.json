@@ -72,5 +72,9 @@
     "attributes":["value","mode","min","max","@on-move-start","@on-moving","@on-move-end",
       "left","right","top","bottom","trigger"],
     "description": "可将一片区域，分割为可以拖拽调整宽度或高度的两部分区域。"
+  },
+  "Divider":{
+    "attributes":["type","orientation","dashed","size"],
+    "description": "分割线"
   }
 }

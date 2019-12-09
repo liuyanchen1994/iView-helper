@@ -11,6 +11,7 @@ import * as card from './attributes/card/card.json'
 import * as collapse from './attributes/collapse/collapse.json'
 import * as panel from './attributes/collapse/panel.json'
 import * as split from './attributes/split/split.json'
+import * as divider from './attributes/divider/divider.json'
 
 export default {
   ...button,
@@ -25,5 +26,6 @@ export default {
   ...card,
   ...collapse,
   ...panel,
-  ...split
+  ...split,
+  ...divider
 }
