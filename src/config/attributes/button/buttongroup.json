@@ -1,0 +1,19 @@
+{
+  "ButtonGroup/size": {
+    "options": ["large", "small", "default"],
+    "description": "按钮组合大小，可选值为large、small、default或者不设置",
+    "optionType": "string",
+    "defaultValue": "default"
+  },
+  "ButtonGroup/shape": {
+    "options": ["circle", "round"],
+    "description": "按钮组合形状，可选值为circle或者不设置",
+    "optionType": "string",
+    "defaultValue": "circle"
+  },
+  "ButtonGroup/vertical": {
+    "description": "按钮组合形状，可选值为circle或者不设置",
+    "optionType": "Boolean",
+    "defaultValue": "false"
+  }
+}

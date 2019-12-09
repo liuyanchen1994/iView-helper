@@ -1,0 +1,22 @@
+{
+  "Icon/type": {
+    "description": "图标的名称",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Icon/size": {
+    "description": "图标的大小，单位是 px",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Icon/color": {
+    "description": "图标的颜色",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Icon/custom": {
+    "description": "自定义图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  }
+}
