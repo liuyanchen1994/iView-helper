@@ -18,6 +18,8 @@ import * as menu from './attributes/menu/menu.json'
 import * as menuGroup from './attributes/menu/menuGroup.json'
 import * as menuItem from './attributes/menu/menuItem.json'
 import * as subMenu from './attributes/menu/subMenu.json'
+import * as tabs from './attributes/tabs/tabs.json'
+import * as tabsPane from './attributes/tabs/tabsPane.json'
 
 export default {
   ...button,
@@ -39,5 +41,7 @@ export default {
   ...menu, 
   ...menuGroup,
   ...menuItem,
-  ...subMenu
+  ...subMenu,
+  ...tabs,
+  ...tabsPane
 }

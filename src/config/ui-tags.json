@@ -105,5 +105,15 @@
   "Submenu":{
     "attributes":["name"],
     "description": "导航菜单项"
+  },
+  "Tabs":{
+    "subTags":["TabPane"],
+    "attributes":["value","type","size","closable","animated","capture-focus",
+    "before-remove","name","@on-click","@on-tab-remove","extra"],
+    "description": "标签页"
+  },
+  "TabPane":{
+    "attributes":["name","label","icon","disabled","closable","tab","index"],
+    "description": "标签页子项"
   }
 }

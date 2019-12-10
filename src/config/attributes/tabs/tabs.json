@@ -1,0 +1,56 @@
+{
+  "Tabs/value":{
+    "description": "当前激活 tab 面板的 name，可以使用 v-model 双向绑定数据.默认为第一项的 name",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Tabs/type":{
+    "options":["line","card"],
+    "description": "页签的基本样式",
+    "optionTyep": "String",
+    "defaultValue": "line"
+  },
+  "Tabs/size":{
+    "options":["line","card"],
+    "description": "尺寸,仅在 type=line 时有效",
+    "optionTyep": "String",
+    "defaultValue": "default"
+  },
+  "Tabs/closable":{
+    "description": "是否可以关闭页签，仅在 type=card 时有效",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Tabs/animated":{
+    "description": "是否使用 CSS3 动画",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "Tabs/capture-focus":{
+    "description": "Tabs 内的表单类组件是否自动获得焦点",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Tabs/before-remove":{
+    "description": "关闭前的函数，返回 Promise 可阻止标签关闭",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Tabs/name":{
+    "description": "当嵌套使用 Tabs，指定 name 区分层级",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Tabs/@on-click":{
+    "description": "tab 被点击时触发,返回值name",
+    "optionTyep": "Function"
+  },
+  "Tabs/@on-tab-remove":{
+    "description": "tab 被关闭时触发,返回值name",
+    "optionTyep": "Function"
+  },
+  "Tabs/extra":{
+    "description": "附加内容",
+    "optionTyep": "Slot"
+  }
+}
