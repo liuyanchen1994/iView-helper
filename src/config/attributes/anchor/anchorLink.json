@@ -1,0 +1,17 @@
+{
+  "AnchorLink/href":{
+    "description": "锚点链接",
+    "optionTyep": "String",
+    "defaultValue":"-"
+  },
+  "AnchorLink/title":{
+    "description": "文字内容",
+    "optionTyep": "String",
+    "defaultValue":"-"
+  },
+  "AnchorLink/scroll-offset":{
+    "description": "点击滚动的额外距离",
+    "optionTyep": "Number",
+    "defaultValue":"0"
+  }
+}

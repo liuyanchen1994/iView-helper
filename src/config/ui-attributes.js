@@ -26,6 +26,8 @@ import * as page from './attributes/page/page.json'
 import * as breadcrumb from './attributes/breadcrumb/breadcrumb.json'
 import * as breadcrumbItem from './attributes/breadcrumb/breadcrumbItem.json'
 import * as badge from './attributes/badge/badge.json'
+import * as anchor from './attributes/anchor/anchor.json'
+import * as anchorLink from './attributes/anchor/anchorLink.json'
 
 export default {
   ...button,
@@ -55,5 +57,7 @@ export default {
   ...page,
   ...breadcrumb,
   ...breadcrumbItem,
-  ...badge
+  ...badge,
+  ...anchor,
+  ...anchorLink
 }

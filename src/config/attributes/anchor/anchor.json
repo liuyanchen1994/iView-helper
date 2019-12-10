@@ -1,0 +1,45 @@
+{
+  "Anchor/affix":{
+    "description": "固定模式",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "Anchor/offset-top":{
+    "description": "距离窗口顶部达到指定偏移量后触发",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },
+  "Anchor/offset-bottom":{
+    "description": "距离窗口底部达到指定偏移量后触发",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },
+  "Anchor/bounds":{
+    "description": "锚点区域边界，单位：px",
+    "optionTyep": "Number",
+    "defaultValue": "5"
+  },
+  "Anchor/scroll-offset":{
+    "description": "点击滚动的额外距离",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },
+  "Anchor/container":{
+    "description": "指定滚动的容器",
+    "optionTyep": "String | HTMLElement",
+    "defaultValue": "-"
+  },
+  "Anchor/show-ink":{
+    "description": "是否显示小圆点",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Anchor/@on-select":{
+    "description": "点击锚点时触发，返回链接(href)",
+    "optionTyep": "Function"
+  },
+  "Anchor/@on-change":{
+    "description": "链接改变时触发，返回新链接和旧链接(newHref, oldHref)",
+    "optionTyep": "Function"
+  }
+}

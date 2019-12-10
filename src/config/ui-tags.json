@@ -144,5 +144,15 @@
   "Badge":{
     "attributes":["count","overflow-count","dot","class-name","type","show-zero","status","text","offset","color"],
     "description": "徽标数"
+  },
+  "Anchor":{
+    "subTags":["AnchorLink"],
+    "attributes":["affix","offset-top","offset-bottom","bounds","scroll-offset","container","show-ink",
+        "@on-select","@on-change"],
+    "description": "锚点"
+  },
+  "AnchorLink":{
+    "attributes":["href","title","scroll-offset"],
+    "description": "锚点子项"
   }
 }
