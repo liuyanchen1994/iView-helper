@@ -1,0 +1,92 @@
+{
+  "Page/current":{
+    "description": "当前页码，支持 .sync 修饰符",
+    "optionTyep": "Number",
+    "defaultValue": "1"
+  },
+  "Page/total":{
+    "description": "数据总数",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },
+  "Page/page-size":{
+    "description": "每页条数",
+    "optionTyep": "Number",
+    "defaultValue": "10"
+  },
+  "Page/page-size-opts":{
+    "description": "每页条数切换的配置",
+    "optionTyep": "Array",
+    "defaultValue": "[10, 20, 30, 40]"
+  },
+  "Page/placement":{
+    "options":["bottom","top"],
+    "description": "条数切换弹窗的展开方向",
+    "optionTyep": "String",
+    "defaultValue": "bottom"
+  },
+  "Page/size":{
+    "options":["small"],
+    "description": "可选值为small（迷你版）或不填（默认）",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Page/simple":{
+    "description": "简洁版",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/show-total":{
+    "description": "显示总数",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/show-elevator":{
+    "description": "显示电梯，可以快速切换到某一页",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/show-sizer":{
+    "description": "显示分页，用来改变page-size",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/class-name":{
+    "description": "自定义 class 名称",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Page/styles":{
+    "description": "自定义 style 样式",
+    "optionTyep": "Object",
+    "defaultValue": "-"
+  },
+  "Page/transfer":{
+    "description": "是否将弹层放置于 body 内，在 Tabs、带有 fixed 的 Table 列内使用时，建议添加此属性，它将不受父级样式影响，从而达到更好的效果",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/prev-text":{
+    "description": "替代图标显示的上一页文字",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Page/next-text":{
+    "description": "替代图标显示的下一页文字",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Page/disabled":{
+    "description": "是否禁用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Page/@on-change":{
+    "description": "页码改变的回调，返回改变后的页码",
+    "optionTyep": "Function"
+  },
+  "Page/@on-page-size-change":{
+    "description": "切换每页条数时的回调，返回切换后的每页条数",
+    "optionTyep": "Function"
+  }
+}

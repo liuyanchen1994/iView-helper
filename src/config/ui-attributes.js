@@ -22,6 +22,7 @@ import * as tabs from './attributes/tabs/tabs.json'
 import * as tabsPane from './attributes/tabs/tabsPane.json'
 import * as dropdown from './attributes/dropdown/dropdown.json'
 import * as dropdownItem from './attributes/dropdown/dropdownItem.json'
+import * as page from './attributes/page/page.json'
 
 export default {
   ...button,
@@ -47,5 +48,6 @@ export default {
   ...tabs,
   ...tabsPane,
   ...dropdown,
-  ...dropdownItem
+  ...dropdownItem,
+  ...page
 }

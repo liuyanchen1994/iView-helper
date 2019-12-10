@@ -125,5 +125,11 @@
   "DropdownItem":{
     "attributes":["name","disabled","divided","selected"],
     "description": "下拉菜单子项"
+  },
+  "Page":{
+    "attributes":["current","total","page-size","page-size-opts","placement","size","simple",
+      "show-total","show-elevator","show-sizer","class-name","styles","transfer","prev-text",
+      "next-text","disabled","@on-change","@on-page-size-change"],
+    "description": "分页"
   }
 }
