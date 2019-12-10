@@ -1,0 +1,51 @@
+{
+  "Dropdown/trigger":{
+    "options":["hover","click","contextMenu","custom"],
+    "description": "触发方式，可选值为 hover（悬停）click（点击）contextMenu（右键）custom（自定义），使用 custom 时，需配合 visible 一起使用",
+    "optionTyep": "String",
+    "defaultValue": "hover"
+  },
+  "Dropdown/visible":{
+    "description": "手动控制下拉框的显示，在 trigger = 'custom' 时使用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Dropdown/placement":{
+    "options":["top","top-start","top-end","bottom","bottom-start","bottom-end","left","left-start",
+      "left-end","right","right-start","right-end"],
+    "description": "下拉菜单出现的位置",
+    "optionTyep": "String",
+    "defaultValue": "bottom"
+  },
+  "Dropdown/transfer":{
+    "description": "是否将弹层放置于 body 内，在 Tabs、带有 fixed 的 Table 列内使用时，建议添加此属性，它将不受父级样式影响，从而达到更好的效果",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Dropdown/transfer-class-name":{
+    "description": "开启 transfer 时，给浮层添加额外的 class 名称",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Dropdown/stop-propagation":{
+    "description": "是否开启 stop-propagation",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Dropdown/@on-click":{
+    "description": "点击菜单项时触发,返回DropdownItem 的 name 值",
+    "optionTyep": "Function"
+  },
+  "Dropdown/@on-visible-change":{
+    "description": "菜单显示状态改变时调用,返回visible",
+    "optionTyep": "Function"
+  },
+  "Dropdown/@on-clickoutside":{
+    "description": "点击外部关闭下拉菜单时触发，返回event",
+    "optionTyep": "Function"
+  },
+  "Dropdown/list":{
+    "description": "列表内容，一般由 DropdownMenu 承担",
+    "optionTyep": "Slot"
+  }
+}

@@ -115,5 +115,15 @@
   "TabPane":{
     "attributes":["name","label","icon","disabled","closable","tab","index"],
     "description": "标签页子项"
+  },
+  "Dropdown":{
+    "subTags":["DropdownItem"],
+    "attributes":["trigger","visible","placement","transfer","transfer-class-name","stop-propagation",
+    "@on-click","@on-visible-change","@on-clickoutside","list"],
+    "description": "下拉菜单"
+  },
+  "DropdownItem":{
+    "attributes":["name","disabled","divided","selected"],
+    "description": "下拉菜单子项"
   }
 }

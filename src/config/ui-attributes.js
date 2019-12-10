@@ -20,6 +20,8 @@ import * as menuItem from './attributes/menu/menuItem.json'
 import * as subMenu from './attributes/menu/subMenu.json'
 import * as tabs from './attributes/tabs/tabs.json'
 import * as tabsPane from './attributes/tabs/tabsPane.json'
+import * as dropdown from './attributes/dropdown/dropdown.json'
+import * as dropdownItem from './attributes/dropdown/dropdownItem.json'
 
 export default {
   ...button,
@@ -43,5 +45,7 @@ export default {
   ...menuItem,
   ...subMenu,
   ...tabs,
-  ...tabsPane
+  ...tabsPane,
+  ...dropdown,
+  ...dropdownItem
 }

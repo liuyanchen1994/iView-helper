@@ -1,0 +1,22 @@
+{
+  "DropdownItem/name":{
+    "description": "用来标识这一项",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "DropdownItem/disabled":{
+    "description": "禁用该项",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "DropdownItem/divided":{
+    "description": "显示分割线",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "DropdownItem/selected":{
+    "description": "标记该项为选中状态",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
+}
