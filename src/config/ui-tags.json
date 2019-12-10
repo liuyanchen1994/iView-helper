@@ -131,5 +131,14 @@
       "show-total","show-elevator","show-sizer","class-name","styles","transfer","prev-text",
       "next-text","disabled","@on-change","@on-page-size-change"],
     "description": "分页"
+  },
+  "Breadcrumb":{
+    "subTags":["BreadcrumbItem"],
+    "attributes":["separator"],
+    "description": "面包屑"
+  },
+  "BreadcrumbItem":{
+    "attributes":["to","replace","target","append"],
+    "description": "面包屑子项"
   }
 }

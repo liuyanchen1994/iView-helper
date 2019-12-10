@@ -23,6 +23,8 @@ import * as tabsPane from './attributes/tabs/tabsPane.json'
 import * as dropdown from './attributes/dropdown/dropdown.json'
 import * as dropdownItem from './attributes/dropdown/dropdownItem.json'
 import * as page from './attributes/page/page.json'
+import * as breadcrumb from './attributes/breadcrumb/breadcrumb.json'
+import * as breadcrumbItem from './attributes/breadcrumb/breadcrumbItem.json'
 
 export default {
   ...button,
@@ -49,5 +51,7 @@ export default {
   ...tabsPane,
   ...dropdown,
   ...dropdownItem,
-  ...page
+  ...page,
+  ...breadcrumb,
+  ...breadcrumbItem
 }

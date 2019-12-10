@@ -1,0 +1,7 @@
+{
+  "Breadcrum/separator":{
+    "description": "自定义分隔符",
+    "optionTyep": "String | Element String",
+    "defaultValue": "/"
+  }
+}
