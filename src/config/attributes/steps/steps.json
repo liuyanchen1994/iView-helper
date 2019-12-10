@@ -1,0 +1,25 @@
+{
+  "Steps/current":{
+    "description": "当前步骤，从 0 开始计数",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },
+  "Steps/status":{
+    "options":["wait","process","finish","error"],
+    "description": "当前步骤的状态",
+    "optionTyep": "String",
+    "defaultValue": "process"
+  },
+  "Steps/size":{
+    "options":["small"],
+    "description": "步骤条的尺寸，可选值为small或者不写",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Steps/direction":{
+    "options":["horizontal","error"],
+    "description": "步骤条的方向",
+    "optionTyep": "String",
+    "defaultValue": "horizontal"
+  }
+}

@@ -154,5 +154,14 @@
   "AnchorLink":{
     "attributes":["href","title","scroll-offset"],
     "description": "锚点子项"
+  },
+  "Steps":{
+    "subTags":["Step"],
+    "attributes":["current","status","size","direction"],
+    "description": "步骤条"
+  },
+  "Step":{
+    "attributes":["status","title","content","icon"],
+    "description": "步骤条子项"
   }
 }

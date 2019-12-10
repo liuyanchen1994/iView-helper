@@ -28,6 +28,8 @@ import * as breadcrumbItem from './attributes/breadcrumb/breadcrumbItem.json'
 import * as badge from './attributes/badge/badge.json'
 import * as anchor from './attributes/anchor/anchor.json'
 import * as anchorLink from './attributes/anchor/anchorLink.json'
+import * as steps from './attributes/steps/steps.json'
+import * as step from './attributes/steps/step.json'
 
 export default {
   ...button,
@@ -59,5 +61,7 @@ export default {
   ...breadcrumbItem,
   ...badge,
   ...anchor,
-  ...anchorLink
+  ...anchorLink,
+  ...steps,
+  ...step
 }

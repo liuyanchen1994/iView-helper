@@ -1,0 +1,23 @@
+{
+  "Step/status":{
+    "options":["wait","process","finish","error"],
+    "description": "当前步骤的状态",
+    "optionTyep": "String",
+    "defaultValue": "process"
+  },
+  "Step/title":{
+    "description": "标题",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Step/content":{
+    "description": "步骤的详细描述，可选",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Step/icon":{
+    "description": "步骤的图标，可选",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  }
+}
