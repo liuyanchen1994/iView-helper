@@ -1,0 +1,54 @@
+{
+  "Badge/count":{
+    "description": "显示的数字，大于overflowCount时，显示${overflowCount}+，为 0 时隐藏或 自定义角标显示内容（去角标背景），数值 count 将无效",
+    "optionTyep": "Number|Slot",
+    "defaultValue": "-"
+  },
+  "Badge/overflow-count":{
+    "description": "展示封顶的数字值",
+    "optionTyep": "Number | String",
+    "defaultValue": "99"
+  },
+  "Badge/dot":{
+    "description": "不展示数字，只有一个小红点，如需隐藏 dot ，需要设置count为 0",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Badge/class-name":{
+    "description": "自定义的class名称，dot 模式下无效",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Badge/type":{
+    "options":["success","primary","normal","error","warning","info"],
+    "description": "使用预设的颜色",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Badge/show-zero":{
+    "description": "当数值为 0 时，是否展示 Badge",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Badge/status":{
+    "options":["success","processing","default","error","warning"],
+    "description": "设置 Badge 为状态点",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Badge/text":{
+    "description": "自定义内容，如果设置了 status，则为状态点的文本 或 自定义角标显示内容（带角标背景），数值 count 将无效。亦可自定义状态点模式下的 text 内容。",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },
+  "Badge/offset":{
+    "description": "设置状态点的位置偏移，格式为 [x, y]",
+    "optionTyep": "Array",
+    "defaultValue": "-"
+  },
+  "Badge/color":{
+    "description": "设置更多状态点的颜色或自定义颜色",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  }
+}

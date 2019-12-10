@@ -140,5 +140,9 @@
   "BreadcrumbItem":{
     "attributes":["to","replace","target","append"],
     "description": "面包屑子项"
+  },
+  "Badge":{
+    "attributes":["count","overflow-count","dot","class-name","type","show-zero","status","text","offset","color"],
+    "description": "徽标数"
   }
 }
