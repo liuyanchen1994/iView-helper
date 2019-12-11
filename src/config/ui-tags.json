@@ -172,5 +172,15 @@
       "@on-keyup","@on-keydown","@on-keypress","@on-search","@on-clear","prepend","append",
       "focus"],
     "description": "输入框"
+  },
+  "RadioGroup":{
+    "subTags":["Radio"],
+    "attributes":["value","type","size","vertical","@on-change"],
+    "description": "单选框组"
+  },
+  "Radio":{
+    "attributes":["value","label","disabled","size","border","true-value","false-value",
+      "@on-change"],
+    "description": "单选框"
   }
 }

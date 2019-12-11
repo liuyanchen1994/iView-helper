@@ -31,6 +31,8 @@ import * as anchorLink from './attributes/anchor/anchorLink.json'
 import * as steps from './attributes/steps/steps.json'
 import * as step from './attributes/steps/step.json'
 import * as input from './attributes/input/input.json'
+import * as radioGroup from './attributes/radio/radioGrooup.json'
+import * as radio from './attributes/radio/radio.json'
 
 export default {
   ...button,
@@ -65,5 +67,7 @@ export default {
   ...anchorLink,
   ...steps,
   ...step,
-  ...input
+  ...input,
+  ...radioGroup,
+  ...radio
 }

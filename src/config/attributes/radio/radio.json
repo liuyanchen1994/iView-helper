@@ -1,0 +1,42 @@
+{
+  "Radio/value": {
+    "description": "只在单独使用时有效。可以使用 v-model 双向绑定数据",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Radio/label": {
+    "description": "只在组合使用时有效。指定当前选项的 value 值，组合会自动判断当前选择的项目",
+    "optionTyep": "String | Number",
+    "defaultValue": "-"
+  },
+  "Radio/disabled": {
+    "description": "是否禁用当前项",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Radio/size": {
+    "options":["large","small","default"],
+    "description": "单选框的尺寸",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Radio/border": {
+    "description": "是否显示边框",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Radio/true-value": {
+    "description": "选中时的值，当使用类似 1 和 0 来判断是否选中时会很有用",
+    "optionTyep": "String, Number, Boolean",
+    "defaultValue": "true"
+  },
+  "Radio/false-value": {
+    "description": "没有选中时的值，当使用类似 1 和 0 来判断是否选中时会很有用",
+    "optionTyep": "String, Number, Boolean",
+    "defaultValue": "false"
+  },
+  "Radio/@on-change": {
+    "description": "在选项状态发生改变时触发，返回当前状态。通过修改外部的数据改变时不会触发,返回...",
+    "optionTyep": "Function"
+  }
+}
