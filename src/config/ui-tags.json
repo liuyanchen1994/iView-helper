@@ -163,5 +163,14 @@
   "Step":{
     "attributes":["status","title","content","icon"],
     "description": "步骤条子项"
+  },
+  "Input":{
+    "attributes":["type","value","size","placeholder","clearable","disabled","readonly",
+      "maxlength","show-word-limit","password","icon","prefix","suffix","search",
+      "enter-button","rows","autosize","number","autofocus","autocomplete","element-id",
+      "spellcheck","wrap","@on-enter","@on-click","@on-change","@on-focus","on-blur",
+      "@on-keyup","@on-keydown","@on-keypress","@on-search","@on-clear","prepend","append",
+      "focus"],
+    "description": "输入框"
   }
 }
