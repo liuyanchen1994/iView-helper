@@ -35,6 +35,7 @@ import * as radioGroup from './attributes/radio/radioGrooup.json'
 import * as radio from './attributes/radio/radio.json'
 import * as checkboxGroup from './attributes/checkbox/checkboxGroup.json'
 import * as checkbox from './attributes/checkbox/checkbox.json'
+import * as switchs from './attributes/switch/switch.json'
 
 export default {
   ...button,
@@ -73,5 +74,6 @@ export default {
   ...radioGroup,
   ...radio,
   ...checkboxGroup,
-  ...checkbox
+  ...checkbox,
+  ...switchs
 }

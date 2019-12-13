@@ -1,0 +1,64 @@
+{
+  "Switch/value": {
+    "description": "指定当前是否选中，可以使用 v-model 双向绑定数据",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Switch/size": {
+    "options": [
+      "large",
+      "small",
+      "default"
+    ],
+    "description": "开关的尺寸，可选值为large、small、default或者不写。建议开关如果使用了2个汉字的文字，使用 large。",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Switch/disabled": {
+    "description": "禁用开关",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Switch/true-value": {
+    "description": "选中时的值，当使用类似 1 和 0 来判断是否选中时会很有用",
+    "optionTyep": "String, Number, Boolean",
+    "defaultValue": "true"
+  },
+  "Switch/false-value": {
+    "description": "没有选中时的值，当使用类似 1 和 0 来判断是否选中时会很有用",
+    "optionTyep": "String, Number, Boolean",
+    "defaultValue": "false"
+  },
+  "Switch/true-color": {
+    "description": "自定义打开时的背景色",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Switch/false-color": {
+    "description": "自定义关闭时的背景色",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Switch/before-change": {
+    "description": "返回 Promise 可以阻止切换",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Switch/loading": {
+    "description": "加载中的开关",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Switch/@on-change": {
+    "description": "开关变化时触发，返回当前的状态，返回 true | false",
+    "optionTyep": "Function"
+  },
+  "Switch/open": {
+    "description": "自定义显示打开时的内容",
+    "optionTyep": "Slot"
+  },
+  "Switch/close": {
+    "description": "自定义显示关闭时的内容",
+    "optionTyep": "Slot"
+  }
+}

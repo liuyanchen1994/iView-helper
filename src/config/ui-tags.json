@@ -191,5 +191,10 @@
   "Checkbox":{
     "attributes":["value","label","disabled","indeterminate","size","border","true-value","false-value","@on-change"],
     "description": "多选框组"
+  },
+  "Switch":{
+    "attributes":["value","size","disabled","true-value","false-value","true-color","false-color",
+      "before-change","loading","@on-change","open","close"],
+    "description": "开关"
   }
 }
