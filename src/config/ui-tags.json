@@ -196,5 +196,15 @@
     "attributes":["value","size","disabled","true-value","false-value","true-color","false-color",
       "before-change","loading","@on-change","open","close"],
     "description": "开关"
+  },
+  "Table":{
+    "attributes":["data","columns","stripe","border","show-header","width","height",
+      "max-height","loading","disabled-hover","highlight-row","row-class-name","size",
+      "no-data-text","no-filtered-data-text","draggable","tooltip-theme","row-key","span-method",
+      "show-summary","sum-text","summary-method","@on-current-change","@on-select","@on-select-cancel",
+      "@on-select-all","@on-select-all-cancel","@on-selection-change","@on-sort-change","@on-filter-change",
+      "@on-row-click","@on-row-dblclick","@on-expand","@on-drag-drop","@on-column-width-resize","header",
+      "footer","loading","@exportCsv","@clearCurrentRow"],
+    "description": "表格"
   }
 }

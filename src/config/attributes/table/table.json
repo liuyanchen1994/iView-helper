@@ -1,0 +1,189 @@
+{
+  "Table/data": {
+    "description": "显示的结构化数据，其中，字段 cellClassName 用于设置任意单元格的样式名称，因此数据不能使用该字段，详见示例特定样式。",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Table/columns": {
+    "description": "表格列的配置描述",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Table/stripe": {
+    "description": "是否显示间隔斑马纹",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/border": {
+    "description": "是否显示纵向边框",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/show-header": {
+    "description": "是否显示表头",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "Table/width": {
+    "description": "表格宽度，单位 px",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Table/height": {
+    "description": "表格高度，单位 px，设置后，如果表格内容大于此值，会固定表头",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Table/max-height": {
+    "description": "表格最大高度，单位 px，设置后，如果表格内容大于此值，会固定表头",
+    "optionTyep": "Number | String",
+    "defaultValue": "-"
+  },
+  "Table/loading": {
+    "description": "表格是否加载中",
+    "optionTyep": "Boolean|Slot",
+    "defaultValue": "false"
+  },
+  "Table/disabled-hover": {
+    "description": "禁用鼠标悬停时的高亮",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/highlight-row": {
+    "description": "是否支持高亮选中的行，即单选",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/row-class-name": {
+    "description": "行的 className 的回调方法，传入参数：row：当前行数据 index：当前行的索引",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Table/size": {
+    "options": [
+      "large",
+      "small",
+      "default"
+    ],
+    "description": "表格尺寸",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Table/no-data-text": {
+    "description": "数据为空时显示的提示内容",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Table/no-filtered-data-text": {
+    "description": "筛选数据为空时显示的提示内容",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Table/draggable": {
+    "description": "是否开启拖拽调整行顺序，需配合 @on-drag-drop 事件使用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/tooltip-theme": {
+    "options": [
+      "dark",
+      "light"
+    ],
+    "description": "列使用 tooltip 时，配置它的主题，可选值为 dark 或 light",
+    "optionTyep": "String",
+    "defaultValue": "dark"
+  },
+  "Table/row-key": {
+    "description": "是否强制使用内置的 row-key，开启后可能会影响性能",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/span-method": {
+    "description": "合并行或列的计算方法",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Table/show-summary": {
+    "description": "是否在表尾显示合计行",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Table/sum-text": {
+    "description": "合计行第一列的文本",
+    "optionTyep": "String",
+    "defaultValue": "合计"
+  },
+  "Table/summary-method": {
+    "description": "自定义的合计计算方法",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Table/@on-current-change": {
+    "description": "开启 highlight-row 后有效，当表格的当前行发生变化的时候会触发,返回 currentRow：当前高亮行的数据 oldCurrentRow：上一次高亮的数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-select": {
+    "description": "在多选模式下有效，选中某一项时触发,返回 selection：已选项数据 row：刚选择的项数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-select-cancel": {
+    "description": "在多选模式下有效，取消选中某一项时触发,返回 selection：已选项数据 row：取消选择的项数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-select-all": {
+    "description": "在多选模式下有效，点击全选时触发,返回 selection：已选项数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-select-all-cancel": {
+    "description": "在多选模式下有效，点击取消全选时触发,返回 selection：已选项数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-selection-change": {
+    "description": "在多选模式下有效，只要选中项发生变化时就会触发,返回 selection：已选项数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-sort-change": {
+    "description": "排序时有效，当点击排序时触发,返回 column 当前列数据 key：排序依据的指标 order：排序的顺序，值为 asc 或 desc",
+    "optionTyep": "Function"
+  },
+  "Table/@on-filter-change": {
+    "description": "筛选时有效，筛选条件发生变化时触发,返回当前列数据",
+    "optionTyep": "Function"
+  },
+  "Table/@on-row-click": {
+    "description": "单击某一行时触发,返回当前行的数据  index",
+    "optionTyep": "Function"
+  },
+  "Table/@on-row-dblclick": {
+    "description": "双击某一行时触发,返回当前行的数据  index",
+    "optionTyep": "Function"
+  },
+  "Table/@on-expand": {
+    "description": "展开或收起某一行时触发,返回row：当前行的数据  status：当前的状态",
+    "optionTyep": "Function"
+  },
+  "Table/@on-drag-drop": {
+    "description": "拖拽排序松开时触发，返回置换的两行数据索引 index1, index2",
+    "optionTyep": "Function"
+  },
+  "Table/@on-column-width-resize": {
+    "description": "拖拽调整列宽时触发，返回newWidth, oldWidth, column, event",
+    "optionTyep": "Function"
+  },
+  "Table/header": {
+    "description": "表头",
+    "optionTyep": "Slot"
+  },
+  "Table/footer": {
+    "description": "页脚",
+    "optionTyep": "Slot"
+  },
+  "Table/exportCsv": {
+    "description": "将数据导出为 .csv 文件",
+    "optionTyep": "Function"
+  },
+  "Table/clearCurrentRow": {
+    "description": "清除高亮项，仅在开启 highlight-row 时可用",
+    "optionTyep": "Function"
+  }
+}
