@@ -234,5 +234,11 @@
     "attributes":["value","min","max","step","disabled","range","show-input","show-stops","show-tip",
       "tip-format","input-size","active-change","marks","@on-change","@on-input"],
     "description": "滑块"
+  },
+  "DatePicker":{
+    "attributes":["type","value","format","placement","placeholder","options","split-panels","multiple","show-week-numbers",
+      "start-date","confirm","open","size","disabled","clearable","readonly","editable","transfer","element-id",
+      "time-picker-options","separator","capture","@on-change","@on-open-change","@on-ok","@on-clear","@on-clickoutside"],
+    "description": "滑块"
   }
 }

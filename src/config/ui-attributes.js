@@ -42,6 +42,7 @@ import * as optionGroup from './attributes/select/optionGroup.json'
 import * as option from './attributes/select/option.json'
 import * as autoComplete from './attributes/autoComplete/autoComplete.json'
 import * as slider from './attributes/slider/slider.json'
+import * as datePicker from './attributes/datePicker/datePicker.json'
 
 export default {
   ...button,
@@ -87,5 +88,6 @@ export default {
   ...optionGroup,
   ...option,
   ...autoComplete,
-  ...slider
+  ...slider,
+  ...datePicker
 }
