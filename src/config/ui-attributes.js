@@ -37,6 +37,9 @@ import * as checkboxGroup from './attributes/checkbox/checkboxGroup.json'
 import * as checkbox from './attributes/checkbox/checkbox.json'
 import * as switchs from './attributes/switch/switch.json'
 import * as table from './attributes/table/table.json'
+import * as select from './attributes/select/select.json'
+import * as optionGroup from './attributes/select/optionGroup.json'
+import * as option from './attributes/select/option.json'
 
 export default {
   ...button,
@@ -77,5 +80,8 @@ export default {
   ...checkboxGroup,
   ...checkbox,
   ...switchs,
-  ...table
+  ...table,
+  ...select,
+  ...optionGroup,
+  ...option
 }

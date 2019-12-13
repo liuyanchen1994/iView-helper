@@ -206,5 +206,23 @@
       "@on-row-click","@on-row-dblclick","@on-expand","@on-drag-drop","@on-column-width-resize","header",
       "footer","loading","@exportCsv","@clearCurrentRow"],
     "description": "表格"
+  },
+  "Select":{
+    "subTags":["Option","OptionGroup"],
+    "attributes":["value","multiple","disabled","clearable","filterable","remote","remote-method",
+      "loading","loading-text","label","size","placeholder","not-found-text","label-in-value",
+      "placement","transfer","element-id","transfer-class-name","prefix","max-tag-count",
+      "max-tag-placeholder","allow-create","capture","@on-change","@on-query-change","@on-clear",
+      "@on-open-change","@on-create","setQuery","clearSingleSelect","prefix"],
+    "description": "选择器"
+  },
+  "OptionGroup":{
+    "subTags":["Option"],
+    "attributes":["label"],
+    "description": "选择器"
+  },
+  "Option":{
+    "attributes":["value","label","disabled","tag"],
+    "description": "选择器"
   }
 }
