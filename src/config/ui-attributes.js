@@ -40,6 +40,7 @@ import * as table from './attributes/table/table.json'
 import * as select from './attributes/select/select.json'
 import * as optionGroup from './attributes/select/optionGroup.json'
 import * as option from './attributes/select/option.json'
+import * as autoComplete from './attributes/autoComplete/autoComplete.json'
 
 export default {
   ...button,
@@ -83,5 +84,6 @@ export default {
   ...table,
   ...select,
   ...optionGroup,
-  ...option
+  ...option,
+  ...autoComplete
 }

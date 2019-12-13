@@ -1,0 +1,94 @@
+{
+  "AutoComplete/value": {
+    "description": "绑定的值，可使用 v-model 双向绑定",
+    "optionTyep": "String | Number",
+    "defaultValue": "-"
+  },
+  "AutoComplete/data": {
+    "description": "自动完成的数据源",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "AutoComplete/clearable": {
+    "description": "是否可以清空选项",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "AutoComplete/disabled": {
+    "description": "是否禁用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "AutoComplete/placeholder": {
+    "description": "占位文本",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "AutoComplete/size": {
+    "options": [
+      "large",
+      "small",
+      "default"
+    ],
+    "description": "输入框尺寸",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "AutoComplete/icon": {
+    "description": "输入框尾部图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "AutoComplete/filter-method": {
+    "description": "是否根据输入项进行筛选。当其为一个函数时，会接收 value 和 option 两个参数，当 option 符合筛选条件时，应返回 true，反之则返回 false",
+    "optionTyep": "Function | Boolean",
+    "defaultValue": "false"
+  },
+  "AutoComplete/placement": {
+    "options": [
+      "bottom",
+      "top",
+      "top-start",
+      "bottom-start",
+      "top-end",
+      "bottom-end"
+    ],
+    "description": "输入框尺寸",
+    "optionTyep": "String",
+    "defaultValue": "bottom-start"
+  },
+  "AutoComplete/transfer": {
+    "description": "是否将弹层放置于 body 内，在 Tabs、带有 fixed 的 Table 列内使用时，建议添加此属性，它将不受父级样式影响，从而达到更好的效果",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "AutoComplete/element-id": {
+    "description": "给表单元素设置 id，详见 Form 用法。",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "AutoComplete/@on-change": {
+    "description": "选中 option，或 input 的 value 变化时，调用此函数,返回value",
+    "optionTyep": "Function"
+  },
+  "AutoComplete/@on-select": {
+    "description": "被选中时调用，参数为选中项的 value 值,返回value",
+    "optionTyep": "Function"
+  },
+  "AutoComplete/@on-search": {
+    "description": "搜索补全项的时候调用,返回query",
+    "optionTyep": "Function"
+  },
+  "AutoComplete/@on-focus": {
+    "description": "聚焦时触发,返回event",
+    "optionTyep": "Function"
+  },
+  "AutoComplete/@on-blur": {
+    "description": "失焦时触发,返回event",
+    "optionTyep": "Function"
+  },
+  "AutoComplete/@on-clear ": {
+    "description": "清空时触发",
+    "optionTyep": "Function"
+  }
+}

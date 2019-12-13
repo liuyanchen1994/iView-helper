@@ -224,5 +224,10 @@
   "Option":{
     "attributes":["value","label","disabled","tag"],
     "description": "选择器"
+  },
+  "AutoComplete":{
+    "attributes":["value","data","clearable","disabled","placeholder","size","icon","filter-method","placement",
+      "transfer","element-id","@on-change","@on-select","@on-search","@on-focus","@on-blur","@on-clear"],
+    "description": "自动完成"
   }
 }
