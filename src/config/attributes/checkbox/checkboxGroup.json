@@ -1,0 +1,17 @@
+{
+  "CheckboxGroup/value": {
+    "description": "指定选中项目的集合，可以使用 v-model 双向绑定数据",
+    "optionTyep": "Array",
+    "defaultValue":"[]"
+  },
+  "CheckboxGroup/size": {
+    "options":["large","small","default"],
+    "description": "多选框组的尺寸",
+    "optionTyep": "String",
+    "defaultValue":"-"
+  },
+  "CheckboxGroup/@on-change": {
+    "description": "在选项状态发生改变时触发，返回当前选中的项。通过修改外部的数据改变时不会触发,返回[...]",
+    "optionTyep": "Function"
+  }
+}

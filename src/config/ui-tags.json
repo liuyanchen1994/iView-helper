@@ -182,5 +182,14 @@
     "attributes":["value","label","disabled","size","border","true-value","false-value",
       "@on-change"],
     "description": "单选框"
+  },
+  "CheckboxGroup":{
+    "subTags":["Checkbox"],
+    "attributes":["value","size","@on-change"],
+    "description": "多选框组"
+  },
+  "Checkbox":{
+    "attributes":["value","label","disabled","indeterminate","size","border","true-value","false-value","@on-change"],
+    "description": "多选框组"
   }
 }

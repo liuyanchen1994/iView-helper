@@ -33,6 +33,8 @@ import * as step from './attributes/steps/step.json'
 import * as input from './attributes/input/input.json'
 import * as radioGroup from './attributes/radio/radioGrooup.json'
 import * as radio from './attributes/radio/radio.json'
+import * as checkboxGroup from './attributes/checkbox/checkboxGroup.json'
+import * as checkbox from './attributes/checkbox/checkbox.json'
 
 export default {
   ...button,
@@ -69,5 +71,7 @@ export default {
   ...step,
   ...input,
   ...radioGroup,
-  ...radio
+  ...radio,
+  ...checkboxGroup,
+  ...checkbox
 }
