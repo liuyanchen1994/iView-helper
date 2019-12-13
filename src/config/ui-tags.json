@@ -239,6 +239,12 @@
     "attributes":["type","value","format","placement","placeholder","options","split-panels","multiple","show-week-numbers",
       "start-date","confirm","open","size","disabled","clearable","readonly","editable","transfer","element-id",
       "time-picker-options","separator","capture","@on-change","@on-open-change","@on-ok","@on-clear","@on-clickoutside"],
-    "description": "滑块"
+    "description": "日期选择器"
+  },
+  "TimePicker":{
+    "attributes":["type","value","format","steps","placement","placeholder","confirm","open","size","disabled",
+      "clearable","readonly","editable","transfer","element-id","separator","capture","@on-change","@on-open-change",
+      "@on-ok","@on-clear"],
+    "description": "时间选择器"
   }
 }

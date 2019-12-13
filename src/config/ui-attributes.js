@@ -43,6 +43,7 @@ import * as option from './attributes/select/option.json'
 import * as autoComplete from './attributes/autoComplete/autoComplete.json'
 import * as slider from './attributes/slider/slider.json'
 import * as datePicker from './attributes/datePicker/datePicker.json'
+import * as timePicker from './attributes/timePicker/timePicker.json'
 
 export default {
   ...button,
@@ -89,5 +90,6 @@ export default {
   ...option,
   ...autoComplete,
   ...slider,
-  ...datePicker
+  ...datePicker,
+  ...timePicker
 }
