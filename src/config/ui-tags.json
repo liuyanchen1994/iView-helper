@@ -229,5 +229,10 @@
     "attributes":["value","data","clearable","disabled","placeholder","size","icon","filter-method","placement",
       "transfer","element-id","@on-change","@on-select","@on-search","@on-focus","@on-blur","@on-clear"],
     "description": "自动完成"
+  },
+  "Slider":{
+    "attributes":["value","min","max","step","disabled","range","show-input","show-stops","show-tip",
+      "tip-format","input-size","active-change","marks","@on-change","@on-input"],
+    "description": "滑块"
   }
 }
