@@ -47,6 +47,7 @@ import * as timePicker from './attributes/timePicker/timePicker.json'
 import * as cascader from './attributes/cascader/cascader.json'
 import * as transfer from './attributes/transfer/transfer.json'
 import * as inputNumber from './attributes/inputNumber/inputNumber.json'
+import * as rate from './attributes/rate/rate.json'
 
 export default {
   ...button,
@@ -97,5 +98,6 @@ export default {
   ...timePicker,
   ...cascader,
   ...transfer,
-  ...inputNumber
+  ...inputNumber,
+  ...rate
 }

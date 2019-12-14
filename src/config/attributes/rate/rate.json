@@ -1,0 +1,51 @@
+{
+  "Rate/count": {
+    "description": "star 总数",
+    "optionTyep": "Number",
+    "defaultValue": "5"
+  },
+  "Rate/value": {
+    "description": "当前 star 数，可以使用 v-model 双向绑定数据",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },
+  "Rate/allow-half": {
+    "description": "是否允许半选",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Rate/disabled": {
+    "description": "是否只读，无法进行交互",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Rate/show-text": {
+    "description": "是否显示提示文字",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Rate/clearable": {
+    "description": "是否可以取消选择",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Rate/character": {
+    "description": "自定义字符",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Rate/icon": {
+    "description": "使用图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Rate/custom-icon": {
+    "description": "使用自定义图标",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Rate/@on-change": {
+    "description": "评分改变时触发,返回值 value",
+    "optionTyep": "function"
+  }
+}

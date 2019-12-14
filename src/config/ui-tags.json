@@ -262,5 +262,10 @@
       "parser","readonly","editable","precision","element-id","active-change","@on-change",
       "@on-focus","@on-blur"],
     "description": "穿梭框"
+  },
+  "Rate":{
+    "attributes":["count","value","allow-half","disabled","show-text","clearable","character","icon",
+      "custom-icon","@on-change"],
+    "description": "评分"
   }
 }
