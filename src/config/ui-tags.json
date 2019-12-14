@@ -256,5 +256,11 @@
     "attributes":["data","targetKeys","render-format","selected-keys","list-style","titles","operations","filterable",
       "filter-placeholder","filter-method","not-found-text","@on-change","@on-selected-change"],
     "description": "穿梭框"
+  },
+  "InputNumber":{
+    "attributes":["max","min","value","step","size","disabled","placeholder","formatter",
+      "parser","readonly","editable","precision","element-id","active-change","@on-change",
+      "@on-focus","@on-blur"],
+    "description": "穿梭框"
   }
 }

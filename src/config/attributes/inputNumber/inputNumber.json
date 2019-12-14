@@ -1,0 +1,89 @@
+{
+  "InputNumber/max": {
+    "description": "最大值",
+    "optionTyep": "Number",
+    "defaultValue": "Infinity"
+  },
+  "InputNumber/min": {
+    "description": "最小值",
+    "optionTyep": "Number",
+    "defaultValue": "-Infinity"
+  },
+  "InputNumber/value": {
+    "description": "当前值，可以使用 v-model 双向绑定数据",
+    "optionTyep": "Number",
+    "defaultValue": "1"
+  },
+  "InputNumber/step": {
+    "description": "每次改变的步伐，可以是小数",
+    "optionTyep": "Number",
+    "defaultValue": "1"
+  },
+  "InputNumber/size": {
+    "options": [
+      "large",
+      "small",
+      "default"
+    ],
+    "description": "输入框尺寸",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "InputNumber/disabled": {
+    "description": "设置禁用状态",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "InputNumber/placeholder": {
+    "description": "占位文本",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "InputNumber/formatter": {
+    "description": "指定输入框展示值的格式",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "InputNumber/parser": {
+    "description": "指定从 formatter 里转换回数字的方式，和 formatter 搭配使用",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "InputNumber/readonly": {
+    "description": "是否设置为只读",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "InputNumber/editable": {
+    "description": "是否可编辑",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "InputNumber/precision": {
+    "description": "数值精度",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },
+  "InputNumber/element-id": {
+    "description": "给表单元素设置 id，详见 Form 用法。",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "InputNumber/active-change": {
+    "description": "是否实时响应数据，设置为 false 时，只会在失焦时更改数据",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },
+  "InputNumber/@on-change": {
+    "description": "数值改变时的回调，返回当前值",
+    "optionTyep": "Function"
+  },
+  "InputNumber/@on-focus": {
+    "description": "聚焦时触发，返回event",
+    "optionTyep": "Function"
+  },
+  "InputNumber/@on-blur": {
+    "description": "失焦时触发",
+    "optionTyep": "Function"
+  }
+}
