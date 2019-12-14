@@ -45,6 +45,7 @@ import * as slider from './attributes/slider/slider.json'
 import * as datePicker from './attributes/datePicker/datePicker.json'
 import * as timePicker from './attributes/timePicker/timePicker.json'
 import * as cascader from './attributes/cascader/cascader.json'
+import * as transfer from './attributes/transfer/transfer.json'
 
 export default {
   ...button,
@@ -93,5 +94,6 @@ export default {
   ...slider,
   ...datePicker,
   ...timePicker,
-  ...cascader
+  ...cascader,
+  ...transfer
 }

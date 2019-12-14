@@ -251,5 +251,10 @@
     "attributes":["data","value","render-format","disabled","clearable","placeholder","trigger","change-on-select",
       "size","load-data","filterable","not-found-text","transfer","element-id","@on-change","@on-visible-change"],
     "description": "级联选择"
+  },
+  "Transfer":{
+    "attributes":["data","targetKeys","render-format","selected-keys","list-style","titles","operations","filterable",
+      "filter-placeholder","filter-method","not-found-text","@on-change","@on-selected-change"],
+    "description": "穿梭框"
   }
 }

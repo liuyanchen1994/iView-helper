@@ -1,0 +1,65 @@
+{
+  "Transfer/data": {
+    "description": "数据源，其中的数据将会被渲染到左边一栏中，targetKeys 中指定的除外。",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Transfer/targetKeys": {
+    "description": "显示在右侧框数据的key集合",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Transfer/render-format": {
+    "description": "每行数据渲染函数，该函数的入参为 data 中的项",
+    "optionTyep": "Function",
+    "defaultValue": "默认显示label，没有时显示key"
+  },
+  "Transfer/selected-keys": {
+    "description": "设置哪些项应该被选中",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Transfer/list-style": {
+    "description": "两个穿梭框的自定义样式",
+    "optionTyep": "Object",
+    "defaultValue": "{}"
+  },
+  "Transfer/titles": {
+    "description": "标题集合，顺序从左至右",
+    "optionTyep": "Array",
+    "defaultValue": "['源列表', '目的列表']"
+  },
+  "Transfer/operations": {
+    "description": "操作文案集合，顺序从上至下",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },
+  "Transfer/filterable": {
+    "description": "是否显示搜索框",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },
+  "Transfer/filter-placeholder": {
+    "description": "搜索框的占位",
+    "optionTyep": "String",
+    "defaultValue": "请输入搜索内容"
+  },
+  "Transfer/filter-method": {
+    "description": "自定义搜索函数，入参为 data 和 query，data 为项，query 为当前输入的搜索词",
+    "optionTyep": "Function",
+    "defaultValue": "默认搜索label"
+  },
+  "Transfer/not-found-text": {
+    "description": "自定义搜索函数，入参为 data 和 query，data 为项，query 为当前输入的搜索词",
+    "optionTyep": "Function",
+    "defaultValue": "当列表为空时显示的内容"
+  },
+  "Transfer/@on-change": {
+    "description": "选项在两栏之间转移时的回调函数,返回值 targetKeys, direction, moveKeys",
+    "optionTyep": "Function"
+  },
+  "Transfer/@on-selected-change": {
+    "description": "选中项发生变化时触发,返回值 sourceSelectedKeys, targetSelectedKeys",
+    "optionTyep": "Function"
+  }
+}
