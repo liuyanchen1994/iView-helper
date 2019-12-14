@@ -246,5 +246,10 @@
       "clearable","readonly","editable","transfer","element-id","separator","capture","@on-change","@on-open-change",
       "@on-ok","@on-clear"],
     "description": "时间选择器"
+  },
+  "Cascader":{
+    "attributes":["data","value","render-format","disabled","clearable","placeholder","trigger","change-on-select",
+      "size","load-data","filterable","not-found-text","transfer","element-id","@on-change","@on-visible-change"],
+    "description": "级联选择"
   }
 }

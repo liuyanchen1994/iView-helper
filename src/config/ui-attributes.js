@@ -44,6 +44,7 @@ import * as autoComplete from './attributes/autoComplete/autoComplete.json'
 import * as slider from './attributes/slider/slider.json'
 import * as datePicker from './attributes/datePicker/datePicker.json'
 import * as timePicker from './attributes/timePicker/timePicker.json'
+import * as cascader from './attributes/cascader/cascader.json'
 
 export default {
   ...button,
@@ -91,5 +92,6 @@ export default {
   ...autoComplete,
   ...slider,
   ...datePicker,
-  ...timePicker
+  ...timePicker,
+  ...cascader
 }
