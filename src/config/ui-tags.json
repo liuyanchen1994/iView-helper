@@ -299,5 +299,11 @@
       "mask","ok-text","cancel-text","width","footer-hide","styles","class-name","z-index","transition-names",
       "transfer","@on-ok","@on-cancel","@on-visible-change","header","footer","close"],
     "description": "对话框"
+  },
+  "Tree":{
+    "attributes":["data","multiple","show-checkbox","empty-text","load-data","render","children-key","check-strictly",
+      "check-directly","@on-select-change","@on-check-change","@on-toggle-expand","getCheckedNodes","getSelectedNodes",
+      "getCheckedAndIndeterminateNodes"],
+    "description": "树形控件"
   }
 }
