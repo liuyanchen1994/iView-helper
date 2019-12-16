@@ -1,0 +1,28 @@
+{
+  "Alert/type": {
+    "options":["info","success","warning","error"],
+    "description": "警告提示样式",
+    "optionTyep": "String",
+    "defaultValue": "info"
+  },"Alert/closable": {
+    "description": "是否可关闭",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Alert/show-icon": {
+    "description": "是否显示图标",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Alert/@on-close": {
+    "description": "关闭时触发,返回值 event",
+    "optionTyep": "Function"
+  },"Alert/desc": {
+    "description": "警告提示辅助性文字介绍",
+    "optionTyep": "Slot"
+  },"Alert/icon": {
+    "description": "自定义图标内容",
+    "optionTyep": "Slot"
+  },"Alert/close": {
+    "description": "自定义关闭内容",
+    "optionTyep": "Slot"
+  }
+}

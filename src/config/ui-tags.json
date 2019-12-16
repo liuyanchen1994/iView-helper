@@ -289,5 +289,9 @@
   "FormItem":{
     "attributes":["prop","label","label-width","label-for","required","rules","error","show-message"],
     "description": "表单子项"
+  },
+  "Alert":{
+    "attributes":["type","closable","show-icon","@on-close","desc","icon","close"],
+    "description": "警告提示"
   }
 }

@@ -52,6 +52,7 @@ import * as upload from './attributes/upload/upload.json'
 import * as colorPicker from './attributes/colorPicker/colorPicker.json'
 import * as form from './attributes/form/form.json'
 import * as formItem from './attributes/form/formItem.json'
+import * as alert from './attributes/alert/alert.json'
 
 export default {
   ...button,
@@ -107,5 +108,6 @@ export default {
   ...upload,
   ...colorPicker,
   ...form,
-  ...formItem
+  ...formItem,
+  ...alert
 }
