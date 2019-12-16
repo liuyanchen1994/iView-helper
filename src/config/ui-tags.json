@@ -310,5 +310,11 @@
     "attributes":["content","placement","disabled","delay","always","theme","max-width","offset",
       "transfer","options","@on-popper-show","@on-popper-hide"],
     "description": "文字提示"
+  },
+  "Poptip":{
+    "attributes":["trigger","title","content","placement","width","confirm","disabled","ok-text",
+      "cancel-text","transfer","popper-class","word-wrap","padding","offset","options","@on-popper-show",
+      "@on-popper-hide","@on-ok","@on-cancel"],
+    "description": "气泡提示"
   }
 }

@@ -56,6 +56,7 @@ import * as alert from './attributes/alert/alert.json'
 import * as modal from './attributes/modal/modal.json'
 import * as tree from './attributes/tree/tree.json'
 import * as tooltip from './attributes/tooltip/tooltip.json'
+import * as poptip from './attributes/poptip/poptip.json'
 
 export default {
   ...button,
@@ -115,5 +116,6 @@ export default {
   ...alert,
   ...modal,
   ...tree,
-  ...tooltip
+  ...tooltip,
+  ...poptip
 }
