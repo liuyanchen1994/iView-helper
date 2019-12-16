@@ -49,6 +49,7 @@ import * as transfer from './attributes/transfer/transfer.json'
 import * as inputNumber from './attributes/inputNumber/inputNumber.json'
 import * as rate from './attributes/rate/rate.json'
 import * as upload from './attributes/upload/upload.json'
+import * as colorPicker from './attributes/colorPicker/colorPicker.json'
 
 export default {
   ...button,
@@ -101,5 +102,6 @@ export default {
   ...transfer,
   ...inputNumber,
   ...rate,
-  ...upload
+  ...upload,
+  ...colorPicker
 }

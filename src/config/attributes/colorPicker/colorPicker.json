@@ -1,0 +1,54 @@
+{
+  "ColorPicker/value": {
+    "description": "绑定的值，可使用 v-model 双向绑定",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"ColorPicker/disabled": {
+    "description": "是否禁用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"ColorPicker/editable": {
+    "description": "是否可以输入色值",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },"ColorPicker/alpha": {
+    "description": "是否支持透明度选择",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"ColorPicker/hue": {
+    "description": "是否支持色彩选择",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },"ColorPicker/recommend": {
+    "description": "是否显示推荐的颜色预设",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"ColorPicker/colors": {
+    "description": "自定义颜色预设",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },"ColorPicker/format": {
+    "options":["hsl","hsv","hex","rgb"],
+    "description": "颜色的格式",
+    "optionTyep": "String",
+    "defaultValue": "开启 alpha 时为 rgb，其它为 hex"
+  },"ColorPicker/size": {
+    "options":["large","small","default"],
+    "description": "尺寸",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"ColorPicker/capture": {
+    "description": "是否开启 capture 模式，也可通过全局配置",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },"ColorPicker/@on-change": {
+    "description": "是否开启 capture 模式，也可通过全局配置,返回值 当前值",
+    "optionTyep": "function"
+  },"ColorPicker/@on-active-change": {
+    "description": "面板中当前显示的颜色发生改变时触发,返回值 当前显示的颜色值",
+    "optionTyep": "function"
+  },"ColorPicker/@on-open-change": {
+    "description": "下拉框展开或收起时触发,返回值 true / false",
+    "optionTyep": "function"
+  }
+}

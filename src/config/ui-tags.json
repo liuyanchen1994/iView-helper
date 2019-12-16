@@ -274,5 +274,10 @@
       "on-error","on-preview","on-remove","on-format-error","on-exceeded-size","default-file-list",
       "@clearFiles","tip"],
     "description": "上传"
+  },
+  "ColorPicker":{
+    "attributes":["value","disabled","editable","alpha","hue","recommend","colors","format",
+      "ssize","capture","@on-change","@on-active-change","@on-open-change"],
+    "description": "颜色选择器"
   }
 }
