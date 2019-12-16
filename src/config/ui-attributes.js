@@ -53,6 +53,7 @@ import * as colorPicker from './attributes/colorPicker/colorPicker.json'
 import * as form from './attributes/form/form.json'
 import * as formItem from './attributes/form/formItem.json'
 import * as alert from './attributes/alert/alert.json'
+import * as modal from './attributes/modal/modal.json'
 
 export default {
   ...button,
@@ -109,5 +110,6 @@ export default {
   ...colorPicker,
   ...form,
   ...formItem,
-  ...alert
+  ...alert,
+  ...modal
 }

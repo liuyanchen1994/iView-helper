@@ -293,5 +293,11 @@
   "Alert":{
     "attributes":["type","closable","show-icon","@on-close","desc","icon","close"],
     "description": "警告提示"
+  },
+  "Modal":{
+    "attributes":["value","title","closable","mask-closable","loading","scrollable","fullscreen","draggable",
+      "mask","ok-text","cancel-text","width","footer-hide","styles","class-name","z-index","transition-names",
+      "transfer","@on-ok","@on-cancel","@on-visible-change","header","footer","close"],
+    "description": "对话框"
   }
 }
