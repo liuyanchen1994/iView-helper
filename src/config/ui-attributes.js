@@ -50,6 +50,8 @@ import * as inputNumber from './attributes/inputNumber/inputNumber.json'
 import * as rate from './attributes/rate/rate.json'
 import * as upload from './attributes/upload/upload.json'
 import * as colorPicker from './attributes/colorPicker/colorPicker.json'
+import * as form from './attributes/form/form.json'
+import * as formItem from './attributes/form/formItem.json'
 
 export default {
   ...button,
@@ -103,5 +105,7 @@ export default {
   ...inputNumber,
   ...rate,
   ...upload,
-  ...colorPicker
+  ...colorPicker,
+  ...form,
+  ...formItem
 }

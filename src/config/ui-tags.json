@@ -277,7 +277,17 @@
   },
   "ColorPicker":{
     "attributes":["value","disabled","editable","alpha","hue","recommend","colors","format",
-      "ssize","capture","@on-change","@on-active-change","@on-open-change"],
+      "size","capture","@on-change","@on-active-change","@on-open-change"],
     "description": "颜色选择器"
+  },
+  "Form":{
+    "subTags":["FormItem"],
+    "attributes":["model","rules","inline","label-position","label-width","show-message","autocomplete","hide-required-mark",
+      "label-colon","disabled","@on-validate","validate","validateField","resetFields"],
+    "description": "表单"
+  },
+  "FormItem":{
+    "attributes":["prop","label","label-width","label-for","required","rules","error","show-message"],
+    "description": "表单子项"
   }
 }

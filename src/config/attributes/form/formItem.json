@@ -1,0 +1,31 @@
+{
+  "FormItem/prop": {
+    "description": "对应表单域 model 里的字段",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"FormItem/label": {
+    "description": "标签文本",
+    "optionTyep": "String|Slot",
+    "defaultValue": "-"
+  },"FormItem/label-width": {
+    "description": "表单域标签的的宽度",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },"FormItem/label-for": {
+    "description": "指定原生的 label 标签的 for 属性，配合控件的 element-id 属性，可以点击 label 时聚焦控件。",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"FormItem/required": {
+    "description": "是否必填，如不设置，则会根据校验规则自动生成",
+    "optionTyep": "Boolean",
+    "defaultValue": "-"
+  },"FormItem/error": {
+    "description": "表单域验证错误信息, 设置该值会使表单验证状态变为error，并显示该错误信息",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"FormItem/show-message": {
+    "description": "是否显示校验错误信息",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  }
+}

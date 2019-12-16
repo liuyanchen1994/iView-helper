@@ -1,0 +1,49 @@
+{
+  "Form/model": {
+    "description": "表单数据对象",
+    "optionTyep": "Object",
+    "defaultValue": "-"
+  },
+  "Form/rules": {
+    "description": "表单验证规则，具体配置查看  async-validator",
+    "optionTyep": "Object",
+    "defaultValue": "-"
+  },"Form/inline": {
+    "description": "是否开启行内表单模式",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Form/label-position": {
+    "options":["left","right","top"],
+    "description": "表单域标签的位置",
+    "optionTyep": "String",
+    "defaultValue": "right"
+  },"Form/label-width": {
+    "description": "表单域标签的宽度，所有的 FormItem 都会继承 Form 组件的 label-width 的值",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },"Form/show-message": {
+    "description": "是否显示校验错误信息",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },"Form/autocomplete": {
+    "options":["off","on"],
+    "description": "原生的 autocomplete 属性，可选值为 off 或 on",
+    "optionTyep": "String",
+    "defaultValue": "off"
+  },"Form/hide-required-mark": {
+    "description": "是否隐藏所有表单项的必选标记",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Form/label-colon": {
+    "description": "是否自动在 label 名称后添加冒号",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Form/disabled": {
+    "description": "是否禁用该表单内的所有组件（适用于具有 disabled 属性的表单类组件）",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Form/@on-validate": {
+    "description": "任一表单项被校验后触发，返回表单项 prop、校验状态、错误消息,返回值 prop, status, error",
+    "optionTyep": "Function"
+  }
+}
