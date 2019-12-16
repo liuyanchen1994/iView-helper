@@ -57,6 +57,7 @@ import * as modal from './attributes/modal/modal.json'
 import * as tree from './attributes/tree/tree.json'
 import * as tooltip from './attributes/tooltip/tooltip.json'
 import * as poptip from './attributes/poptip/poptip.json'
+import * as progress from './attributes/progress/progress.json'
 
 export default {
   ...button,
@@ -117,5 +118,6 @@ export default {
   ...modal,
   ...tree,
   ...tooltip,
-  ...poptip
+  ...poptip,
+  ...progress
 }

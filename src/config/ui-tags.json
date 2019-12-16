@@ -316,5 +316,9 @@
       "cancel-text","transfer","popper-class","word-wrap","padding","offset","options","@on-popper-show",
       "@on-popper-hide","@on-ok","@on-cancel"],
     "description": "气泡提示"
+  },
+  "Progress":{
+    "attributes":["percent","status","stroke-width","stroke-color","hide-info","vertical","success-percent","text-inside"],
+    "description": "进度条"
   }
 }
