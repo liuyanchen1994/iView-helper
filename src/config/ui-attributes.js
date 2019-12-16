@@ -55,6 +55,7 @@ import * as formItem from './attributes/form/formItem.json'
 import * as alert from './attributes/alert/alert.json'
 import * as modal from './attributes/modal/modal.json'
 import * as tree from './attributes/tree/tree.json'
+import * as tooltip from './attributes/tooltip/tooltip.json'
 
 export default {
   ...button,
@@ -113,5 +114,6 @@ export default {
   ...formItem,
   ...alert,
   ...modal,
-  ...tree
+  ...tree,
+  ...tooltip
 }

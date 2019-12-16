@@ -305,5 +305,10 @@
       "check-directly","@on-select-change","@on-check-change","@on-toggle-expand","getCheckedNodes","getSelectedNodes",
       "getCheckedAndIndeterminateNodes"],
     "description": "树形控件"
+  },
+  "Tooltip":{
+    "attributes":["content","placement","disabled","delay","always","theme","max-width","offset",
+      "transfer","options","@on-popper-show","@on-popper-hide"],
+    "description": "文字提示"
   }
 }

@@ -1,0 +1,54 @@
+{
+  "Tooltip/content": {
+    "description": "显示的内容",
+    "optionTyep": "String | Number|Slot",
+    "defaultValue": "-"
+  },"Tooltip/placement": {
+    "options":["top","top-start","top-end","bottom","bottom-start","bottom-end","left",
+      "left-start","left-end","right","right-start","right-end"],
+    "description": "显示的内容",
+    "optionTyep": "String",
+    "defaultValue": "bottom"
+  },"Tooltip/disabled": {
+    "description": "是否禁用提示框",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Tooltip/delay": {
+    "description": "延迟显示，单位毫秒",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },"Tooltip/always": {
+    "description": "是否总是可见",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Tooltip/theme": {
+    "options":["dark","light"],
+    "description": "主题",
+    "optionTyep": "String",
+    "defaultValue": "dark"
+  },"Tooltip/max-width": {
+    "description": "最大宽度，超出最大值后，文本将自动换行，并两端对齐",
+    "optionTyep": "String | Number",
+    "defaultValue": "-"
+  },"Tooltip/offset": {
+    "description": "出现位置的偏移量",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },"Tooltip/transfer": {
+    "description": "是否将弹层放置于 body 内，在 Tabs、带有 fixed 的 Table 列内使用时，建议添加此属性，它将不受父级样式影响，从而达到更好的效果",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Tooltip/options": {
+    "description": "自定义 popper.js 的配置项，具体配置见 popper.js 文档",
+    "optionTyep": "Object",
+    "defaultValue": "{modifiers: {computeStyle:{gpuAcceleration: false,},preventOverflow :{boundariesElement: 'window'}}}"
+  },"Tooltip/@on-popper-show": {
+    "description": "在提示框显示时触发",
+    "optionTyep": "function",
+    "defaultValue": "-"
+  },"Tooltip/@on-popper-hide": {
+    "description": "在提示框消失时触发",
+    "optionTyep": "function",
+    "defaultValue": "-"
+  }
+}
