@@ -1,0 +1,100 @@
+{
+  "Upload/action": {
+    "description": "上传的地址，必填",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"Upload/headers": {
+    "description": "设置上传的请求头部",
+    "optionTyep": "Object",
+    "defaultValue": "{}"
+  },"Upload/multiple": {
+    "description": "是否支持多选文件",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Upload/paste": {
+    "description": "是否支持粘贴上传文件",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Upload/disabled": {
+    "description": "是否禁用",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Upload/data": {
+    "description": "上传时附带的额外参数",
+    "optionTyep": "Object",
+    "defaultValue": "-"
+  },"Upload/name": {
+    "description": "上传的文件字段名",
+    "optionTyep": "String",
+    "defaultValue": "file"
+  },"Upload/with-credentials": {
+    "description": "支持发送 cookie 凭证信息",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  },"Upload/show-upload-list": {
+    "description": "是否显示已上传文件列表",
+    "optionTyep": "Boolean",
+    "defaultValue": "true"
+  },"Upload/type": {
+    "options":["select","drag"],
+    "description": "上传控件的类型，可选值为 select（点击选择），drag（支持拖拽）",
+    "optionTyep": "String",
+    "defaultValue": "select"
+  },"Upload/accept": {
+    "options":["select","drag"],
+    "description": "接受上传的文件类型",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },"Upload/format": {
+    "options":["select","drag"],
+    "description": "支持的文件类型，与 accept 不同的是，format 是识别文件的后缀名，accept 为 input 标签原生的 accept 属性，会在选择文件时过滤，可以两者结合使用",
+    "optionTyep": "Array",
+    "defaultValue": "[]"
+  },"Upload/max-size": {
+    "description": "文件大小限制，单位 kb",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },"Upload/before-upload": {
+    "description": "上传文件之前的钩子，参数为上传的文件，若返回 false 或者 Promise 则停止上传",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-progress": {
+    "description": "文件上传时的钩子，返回字段为 event, file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-success": {
+    "description": "文件上传成功时的钩子，返回字段为 response, file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-error": {
+    "description": "文件上传失败时的钩子，返回字段为 error, file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-preview": {
+    "description": "点击已上传的文件链接时的钩子，返回字段为 file， 可以通过 file.response 拿到服务端返回数据",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-remove": {
+    "description": "文件列表移除文件时的钩子，返回字段为 file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-format-error": {
+    "description": "文件格式验证失败时的钩子，返回字段为 file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/on-exceeded-size": {
+    "description": "文件超出指定大小限制时的钩子，返回字段为 file, fileList",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/default-file-list": {
+    "description": "默认已上传的文件列表,例如:[{name: 'img1.jpg',url: 'http://www.xxx.com/img1.jpg'},{name: 'img2.jpg',url: 'http://www.xxx.com/img2.jpg'}]",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },"Upload/@clearFiles": {
+    "description": "清空已上传的文件列表",
+    "optionTyep": "Function"
+  },"Upload/tip": {
+    "description": "辅助提示内容",
+    "optionTyep": "Slot"
+  }
+}

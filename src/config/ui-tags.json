@@ -267,5 +267,12 @@
     "attributes":["count","value","allow-half","disabled","show-text","clearable","character","icon",
       "custom-icon","@on-change"],
     "description": "评分"
+  },
+  "Upload":{
+    "attributes":["action","headers","multiple","paste","disabled","data","name","with-credentials",
+      "show-upload-list","type","accept","format","max-size","before-upload","on-progress","on-success",
+      "on-error","on-preview","on-remove","on-format-error","on-exceeded-size","default-file-list",
+      "@clearFiles","tip"],
+    "description": "上传"
   }
 }
