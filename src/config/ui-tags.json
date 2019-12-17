@@ -346,5 +346,9 @@
   "TimelineItem":{
     "attributes":["color","dot"],
     "description": "时间轴子项"
+  },
+  "Time":{
+    "attributes":["time","type","interval","hash"],
+    "description": "相对时间"
   }
 }

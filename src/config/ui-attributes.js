@@ -63,6 +63,7 @@ import * as tag from './attributes/tag/tag.json'
 import * as carousel from './attributes/carousel/carousel.json'
 import * as timeline from './attributes/timeline/timeline.json'
 import * as timelineItem from './attributes/timeline/timelineItem.json'
+import * as time from './attributes/time/time.json'
 
 export default {
   ...button,
@@ -129,5 +130,6 @@ export default {
   ...tag,
   ...carousel,
   ...timeline,
-  ...timelineItem
+  ...timelineItem,
+  ...time
 }

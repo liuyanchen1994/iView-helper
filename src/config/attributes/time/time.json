@@ -1,0 +1,20 @@
+{
+  "Time/time": {
+    "description": "需要对比的时间，可以是时间戳或 Date 类型",
+    "optionTyep": "Number | Date | String",
+    "defaultValue": "-"
+  },"Time/type": {
+    "options":["relative","date","datetime"],
+    "description": "需要对比的时间，可以是时间戳或 Date 类型",
+    "optionTyep": "String",
+    "defaultValue": "relative"
+  },"Time/interval": {
+    "description": "自动更新的间隔，单位：秒",
+    "optionTyep": "Number",
+    "defaultValue": "60"
+  },"Time/hash": {
+    "description": "自动更新的间隔，单位：秒",
+    "optionTyep": "Number",
+    "defaultValue": "60"
+  }
+}
