@@ -1,0 +1,23 @@
+{
+  "BackTop/height": {
+    "description": "页面滚动高度达到该值时才显示BackTop组件",
+    "optionTyep": "Number",
+    "defaultValue": "400"
+  },"BackTop/bottom": {
+    "description": "组件距离底部的距离",
+    "optionTyep": "Number",
+    "defaultValue": "30"
+  },"BackTop/right": {
+    "description": "组件距离右部的距离",
+    "optionTyep": "Number",
+    "defaultValue": "30"
+  },"BackTop/duration": {
+    "description": "滚动动画持续时间，单位 毫秒",
+    "optionTyep": "Number",
+    "defaultValue": "1000"
+  },"BackTop/@on-click": {
+    "description": "点击按钮时触发",
+    "optionTyep": "function",
+    "defaultValue": "-"
+  }
+}

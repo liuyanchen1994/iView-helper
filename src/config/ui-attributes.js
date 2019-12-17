@@ -66,6 +66,7 @@ import * as timelineItem from './attributes/timeline/timelineItem.json'
 import * as time from './attributes/time/time.json'
 import * as circle from './attributes/circle/circle.json'
 import * as affix from './attributes/affix/affix.json'
+import * as backTop from './attributes/backtop/backTop.json'
 
 export default {
   ...button,
@@ -135,5 +136,6 @@ export default {
   ...timelineItem,
   ...time,
   ...circle,
-  ...affix
+  ...affix,
+  ...backTop
 }

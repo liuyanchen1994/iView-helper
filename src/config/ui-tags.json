@@ -359,5 +359,9 @@
   "Affix":{
     "attributes":["offset-top","offset-bottom","@on-change"],
     "description": "图钉"
+  },
+  "BackTop":{
+    "attributes":["height","bottom","right","duration","@on-click"],
+    "description": "返回顶部"
   }
 }
