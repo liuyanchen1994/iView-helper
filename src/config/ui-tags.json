@@ -355,5 +355,9 @@
     "attributes":["percent","size","stroke-linecap","stroke-width","stroke-color","trail-width","trail-color",
       "dashboard"],
     "description": "进度环"
+  },
+  "Affix":{
+    "attributes":["offset-top","offset-bottom","@on-change"],
+    "description": "图钉"
   }
 }

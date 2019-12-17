@@ -1,0 +1,15 @@
+{
+  "Affix/offset-top": {
+    "description": "距离窗口顶部达到指定偏移量后触发",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },"Affix/offset-bottom": {
+    "description": "距离窗口顶部达到指定偏移量后触发",
+    "optionTyep": "Number",
+    "defaultValue": "-"
+  },"Affix/@on-change": {
+    "description": "在固定状态发生改变时触发,返回值 true | false",
+    "optionTyep": "function",
+    "defaultValue": "-"
+  }
+}
