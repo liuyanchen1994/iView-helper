@@ -328,5 +328,14 @@
   "Tag":{
     "attributes":["closable","checkable","checked","type","color","name","fade","size","@on-close","@on-change"],
     "description": "标签"
+  },
+  "Carousel":{
+    "subTags":["CarouselItem"],
+    "attributes":["value","height","loop","autoplay","autoplay-speed","dots","radius-dot","trigger",
+      "arrow","easing","@on-change"],
+    "description": "走马灯"
+  },
+  "CarouselItem":{
+    "description": "走马灯子项"
   }
 }
