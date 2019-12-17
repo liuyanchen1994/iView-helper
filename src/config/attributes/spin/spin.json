@@ -1,3 +1,13 @@
 {
-  
+  "Spin/size": {
+    "options":["large","small"],
+    "description": "Spin尺寸，可选值为large和small或者不设置",
+    "optionTyep": "String",
+    "defaultValue": "-"
+  },
+  "Spin/fix": {
+    "description": "是否固定，需要父级有relative或absolute",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
 }
