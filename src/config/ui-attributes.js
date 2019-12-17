@@ -67,6 +67,7 @@ import * as time from './attributes/time/time.json'
 import * as circle from './attributes/circle/circle.json'
 import * as affix from './attributes/affix/affix.json'
 import * as backTop from './attributes/backtop/backTop.json'
+import * as spin from './attributes/spin/spin.json'
 
 export default {
   ...button,
@@ -137,5 +138,6 @@ export default {
   ...time,
   ...circle,
   ...affix,
-  ...backTop
+  ...backTop,
+  ...spin
 }

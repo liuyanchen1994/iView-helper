@@ -363,5 +363,9 @@
   "BackTop":{
     "attributes":["height","bottom","right","duration","@on-click"],
     "description": "返回顶部"
+  },
+  "Spin":{
+    "attributes":["size","fix"],
+    "description": "加载中"
   }
 }
