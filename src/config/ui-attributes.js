@@ -59,6 +59,7 @@ import * as tooltip from './attributes/tooltip/tooltip.json'
 import * as poptip from './attributes/poptip/poptip.json'
 import * as progress from './attributes/progress/progress.json'
 import * as avatar from './attributes/avatar/avatar.json'
+import * as tag from './attributes/tag/tag.json'
 
 export default {
   ...button,
@@ -121,5 +122,6 @@ export default {
   ...tooltip,
   ...poptip,
   ...progress,
-  ...avatar
+  ...avatar,
+  ...tag
 }

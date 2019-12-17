@@ -324,5 +324,9 @@
   "Avatar":{
     "attributes":["shape","size","src","icon","custom-icon","@on-error"],
     "description": "头像"
+  },
+  "Tag":{
+    "attributes":["closable","checkable","checked","type","color","name","fade","size","@on-close","@on-change"],
+    "description": "标签"
   }
 }
