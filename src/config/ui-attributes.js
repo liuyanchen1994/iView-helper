@@ -19,7 +19,7 @@ import * as menuGroup from './attributes/menu/menuGroup.json'
 import * as menuItem from './attributes/menu/menuItem.json'
 import * as subMenu from './attributes/menu/subMenu.json'
 import * as tabs from './attributes/tabs/tabs.json'
-import * as tabsPane from './attributes/tabs/tabsPane.json'
+import * as tabPane from './attributes/tabs/tabPane.json'
 import * as dropdown from './attributes/dropdown/dropdown.json'
 import * as dropdownItem from './attributes/dropdown/dropdownItem.json'
 import * as page from './attributes/page/page.json'
@@ -92,7 +92,7 @@ export default {
   ...menuItem,
   ...subMenu,
   ...tabs,
-  ...tabsPane,
+  ...tabPane,
   ...dropdown,
   ...dropdownItem,
   ...page,
