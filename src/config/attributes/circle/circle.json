@@ -1,0 +1,36 @@
+{
+  "Circle/percent": {
+    "description": "百分比",
+    "optionTyep": "Number",
+    "defaultValue": "0"
+  },"Circle/size": {
+    "description": "图表的宽度和高度，单位 px",
+    "optionTyep": "Number",
+    "defaultValue": "120"
+  },"Circle/stroke-linecap": {
+    "options":["square","round"],
+    "description": "进度环顶端的形状",
+    "optionTyep": "String",
+    "defaultValue": "round"
+  },"Circle/stroke-width": {
+    "description": "进度环的线宽，单位 px",
+    "optionTyep": "Number",
+    "defaultValue": "6"
+  },"Circle/stroke-color": {
+    "description": "进度环的颜色，4.0.0 版本开始支持传入数组显示为渐变色",
+    "optionTyep": "String | Array",
+    "defaultValue": "#2db7f5"
+  },"Circle/trail-width": {
+    "description": "进度环背景的线宽，单位 px",
+    "optionTyep": "Number",
+    "defaultValue": "5"
+  },"Circle/trail-color": {
+    "description": "进度环背景的颜色",
+    "optionTyep": "String",
+    "defaultValue": "#eaeef2"
+  },"Circle/dashboard": {
+    "description": "是否显示为仪表盘",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
+}

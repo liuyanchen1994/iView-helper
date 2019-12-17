@@ -350,5 +350,10 @@
   "Time":{
     "attributes":["time","type","interval","hash"],
     "description": "相对时间"
+  },
+  "Circle":{
+    "attributes":["percent","size","stroke-linecap","stroke-width","stroke-color","trail-width","trail-color",
+      "dashboard"],
+    "description": "进度环"
   }
 }

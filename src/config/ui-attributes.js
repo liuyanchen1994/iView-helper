@@ -64,6 +64,7 @@ import * as carousel from './attributes/carousel/carousel.json'
 import * as timeline from './attributes/timeline/timeline.json'
 import * as timelineItem from './attributes/timeline/timelineItem.json'
 import * as time from './attributes/time/time.json'
+import * as circle from './attributes/circle/circle.json'
 
 export default {
   ...button,
@@ -131,5 +132,6 @@ export default {
   ...carousel,
   ...timeline,
   ...timelineItem,
-  ...time
+  ...time,
+  ...circle
 }
