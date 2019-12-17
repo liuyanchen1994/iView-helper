@@ -367,5 +367,9 @@
   "Spin":{
     "attributes":["size","fix"],
     "description": "加载中"
+  },
+  "Scroll":{
+    "attributes":["height","loading-text","on-reach-top","on-reach-bottom","on-reach-edge","distance-to-edge"],
+    "description": "无限滚动"
   }
 }

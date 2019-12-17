@@ -1,0 +1,32 @@
+{
+  "Scroll/height": {
+    "description": "滚动区域的高度，单位像素",
+    "optionTyep": "String | Number",
+    "defaultValue": "300"
+  },
+  "Scroll/loading-text": {
+    "description": "加载中的文案",
+    "optionTyep": "String",
+    "defaultValue": "加载中"
+  },
+  "Scroll/on-reach-top": {
+    "description": "滚动至顶部时触发，需返回 Promise",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Scroll/on-reach-bottom": {
+    "description": "滚动至底部时触发，需返回 Promise",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Scroll/on-reach-edge": {
+    "description": "滚动至顶部或底部时触发，需返回 Promise",
+    "optionTyep": "Function",
+    "defaultValue": "-"
+  },
+  "Scroll/distance-to-edge": {
+    "description": "从边缘到触发回调的距离。如果是负的，回调将在到达边缘之前触发。值最好在 24 以下。",
+    "optionTyep": "Number | Array",
+    "defaultValue": "[20, 20]"
+  }
+}

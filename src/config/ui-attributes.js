@@ -68,6 +68,7 @@ import * as circle from './attributes/circle/circle.json'
 import * as affix from './attributes/affix/affix.json'
 import * as backTop from './attributes/backtop/backTop.json'
 import * as spin from './attributes/spin/spin.json'
+import * as scroll from './attributes/scroll/scroll.json'
 
 export default {
   ...button,
@@ -139,5 +140,6 @@ export default {
   ...circle,
   ...affix,
   ...backTop,
-  ...spin
+  ...spin,
+  ...scroll
 }
