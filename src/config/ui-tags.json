@@ -320,5 +320,9 @@
   "Progress":{
     "attributes":["percent","status","stroke-width","stroke-color","hide-info","vertical","success-percent","text-inside"],
     "description": "进度条"
+  },
+  "Avatar":{
+    "attributes":["shape","size","src","icon","custom-icon","@on-error"],
+    "description": "头像"
   }
 }

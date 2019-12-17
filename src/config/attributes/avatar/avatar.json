@@ -1,0 +1,41 @@
+{
+  "Avatar/shape": {
+    "options": [
+      "circle",
+      "square"
+    ],
+    "description": "指定头像的形状",
+    "optionTyep": "String",
+    "defaultValue": "circle"
+  },
+  "Avatar/size": {
+    "options": [
+      "large",
+      "small",
+      "default"
+    ],
+    "description": "设置头像的大小",
+    "optionTyep": "String | Number",
+    "defaultValue": "default"
+  },
+  "Avatar/src": {
+    "description": "图片类头像的资源地址",
+    "optionTyep": "String ",
+    "defaultValue": "-"
+  },
+  "Avatar/icon": {
+    "description": "设置头像的图标类型，参考 Icon 组件",
+    "optionTyep": "String ",
+    "defaultValue": "-"
+  },
+  "Avatar/custom-icon": {
+    "description": "自定义图标",
+    "optionTyep": "String ",
+    "defaultValue": "-"
+  },
+  "Avatar/@on-error": {
+    "description": "在设置 src 且图片加载不成功时触发,返回值 event",
+    "optionTyep": "Function ",
+    "defaultValue": "-"
+  }
+}
