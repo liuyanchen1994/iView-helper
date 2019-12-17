@@ -1,0 +1,13 @@
+{
+  "TimelineItem/color": {
+    "options":["blue","red","green"],
+    "description": "圆圈颜色",
+    "optionTyep": "String",
+    "defaultValue": "blue"
+  },
+  "TimelineItem/dot": {
+    "description": "自定义时间轴点内容",
+    "optionTyep": "Slot",
+    "defaultValue": "-"
+  }
+}

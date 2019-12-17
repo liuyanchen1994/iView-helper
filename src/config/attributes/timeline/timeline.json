@@ -1,0 +1,7 @@
+{
+  "Timeline/pending": {
+    "description": "指定是否最后一个节点为幽灵节点",
+    "optionTyep": "Boolean",
+    "defaultValue": "false"
+  }
+}

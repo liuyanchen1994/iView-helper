@@ -61,6 +61,8 @@ import * as progress from './attributes/progress/progress.json'
 import * as avatar from './attributes/avatar/avatar.json'
 import * as tag from './attributes/tag/tag.json'
 import * as carousel from './attributes/carousel/carousel.json'
+import * as timeline from './attributes/timeline/timeline.json'
+import * as timelineItem from './attributes/timeline/timelineItem.json'
 
 export default {
   ...button,
@@ -125,5 +127,7 @@ export default {
   ...progress,
   ...avatar,
   ...tag,
-  ...carousel
+  ...carousel,
+  ...timeline,
+  ...timelineItem
 }

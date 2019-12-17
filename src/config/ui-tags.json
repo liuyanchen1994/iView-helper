@@ -337,5 +337,14 @@
   },
   "CarouselItem":{
     "description": "走马灯子项"
+  },
+  "Timeline":{
+    "subTags":["TimelineItem"],
+    "attributes":["pending"],
+    "description": "时间轴"
+  },
+  "TimelineItem":{
+    "attributes":["color","dot"],
+    "description": "时间轴子项"
   }
 }
