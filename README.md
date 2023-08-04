@@ -9,7 +9,7 @@
 * Document
 
 * Snippets
-![document](https://github.com/liuyanchen1994/iView-helper/blob/master/iview-helper.gif)
+![document](https://user-images.githubusercontent.com/19524048/70971448-f3e4b480-20db-11ea-995a-fe4c82e73ec5.gif)
 
 ## LICENSE
 
